@@ -114,6 +114,16 @@
             bindings = <&lt 2 SPACE>;
             key-positions = <30 14>;
         };
+
+        leftShiftCombo {
+            bindings = <&kp LSHIFT>;
+            key-positions = <30 16>;
+        };
+
+        rightShiftCombo {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <33 19>;
+        };
     };
 
     keymap {
