@@ -112,7 +112,7 @@
 
         mouse_control_combo {
             bindings = <&lt 2 SPACE>;
-            key-positions = <16 30>;
+            key-positions = <30 14>;
         };
     };
 
