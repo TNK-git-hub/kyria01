@@ -332,3 +332,7 @@ layers:
 combos:
 - p: [30, 14]
   k: {t: '$$mdi:keyboard-space$$', h: mouse_control}
+- p: [30, 16]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [33, 19]
+  k: $$mdi:apple-keyboard-shift$$
