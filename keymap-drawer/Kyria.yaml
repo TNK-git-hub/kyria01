@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:keyboard-space$$', h: cursor_layer}
+  - '&cursorandmouse'
   - {t: '$$mdi:apple-keyboard-shift$$', h: mouse_control}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:keyboard-space$$
@@ -78,7 +78,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
