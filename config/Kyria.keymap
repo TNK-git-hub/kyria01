@@ -111,6 +111,8 @@
             label = "CURSORANDMOUSE ";
             #binding-cells = <0>;
             bindings = <&lt 1 SPACE>, <&lt 2 SPACE>;
+
+            tapping-term-ms = <400>;
         };
     };
 
