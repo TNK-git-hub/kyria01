@@ -163,7 +163,7 @@
         mouse_control {
             display-name = "mouse_control";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                     &trans  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                     &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &trans  &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &trans     &trans
                                         &trans  &trans  &trans  &trans  &mkp LCLK  &trans
