@@ -114,6 +114,12 @@
 
             tapping-term-ms = <400>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-key-toggle";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <1>;
+        };
     };
 
     combos {
@@ -135,16 +141,25 @@
         };
     };
 
+    macros {
+        alt_tab: alt_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp TAB>;
+            label = "ALT_TAB";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E  &kp R  &kp T                                                                   &kp Y     &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D  &kp F  &kp G                                                                   &kp H     &kp J  &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B     &cursorandmouse  &lt 2 LEFT_SHIFT  &mmv MOVE_DOWN  &kp SPACE  &kp N     &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                                       &kp LWIN  &trans           &tog 3            &kp LCTRL       &kp SPACE  &kp LGUI
+&kp ESC    &kp Q  &kp W  &kp E  &kp R  &kp T                                                                  &kp Y     &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D  &kp F  &kp G                                                                  &kp H     &kp J  &kp K      &kp L    &kp SEMI  &kp ENTER
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B        &lt 2 SPACE  &lt 2 LEFT_SHIFT  &mmv MOVE_DOWN  &kp SPACE  &kp N     &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
+                                       &lt 1 MINUS  &alt_tab     &tog 3            &kp LCTRL       &kp SPACE  &kp LGUI
             >;
         };
 
@@ -185,7 +200,7 @@
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
         };
 
-        mouse {
+        symbol {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
