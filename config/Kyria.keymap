@@ -144,6 +144,11 @@
             bindings = <&ctrlShiftCombo>;
             key-positions = <24 25>;
         };
+
+        one-keyboard-control {
+            bindings = <&to 4>;
+            key-positions = <12 0>;
+        };
     };
 
     macros {
@@ -238,12 +243,12 @@
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
         };
 
-        symbol {
+        onekeyboardControl {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                     &trans  &trans  &trans  &trans          &mmv MOVE_UP    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                     &trans  &trans  &trans  &trans          &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &trans  &trans  &trans  &mmv MOVE_LEFT  &msc SCRL_DOWN  &msc SCRL_UP
+                                        &trans  &trans  &trans  &trans  &trans     &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
