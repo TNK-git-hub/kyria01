@@ -172,6 +172,20 @@
 
             label = "CTRLSHIFTCOMBO";
         };
+
+        zmk_macro: zmk_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp Z &kp M &kp K>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "ZMK_MACRO";
+        };
     };
 
     keymap {
