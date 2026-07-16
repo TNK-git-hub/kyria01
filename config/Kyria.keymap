@@ -155,6 +155,18 @@
 
             label = "ALT_TAB";
         };
+
+        ctrlShiftCombo: ctrlShiftCombo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp>;
+
+            label = "CTRLSHIFTCOMBO";
+        };
     };
 
     keymap {
