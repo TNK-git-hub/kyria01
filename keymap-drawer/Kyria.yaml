@@ -336,3 +336,5 @@ combos:
   k: $$mdi:apple-keyboard-shift$$
 - p: [33, 19]
   k: $$mdi:apple-keyboard-shift$$
+- p: [24, 25]
+  k: '&ctrlShiftCombo'
