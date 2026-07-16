@@ -139,6 +139,11 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <33 19>;
         };
+
+        ctrl-shift-combo {
+            bindings = <&ctrlShiftCombo>;
+            key-positions = <24 25>;
+        };
     };
 
     macros {
@@ -161,9 +166,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL &kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&kp>;
+                <&lt 1 LEFT_SHIFT &kp LCTRL &kp LEFT_SHIFT>,
+                <&macro_release>,
+                <&lt 1 LEFT_SHIFT &kp LCTRL &kp LEFT_SHIFT>;
 
             label = "CTRLSHIFTCOMBO";
         };
