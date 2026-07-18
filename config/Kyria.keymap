@@ -156,12 +156,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
                 <&kp LEFT_SHIFT>,
-                <&macro_tap>,
+                <&macro_press>,
                 <&kp TAB>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT>;
+                <&macro_tap>,
+                <&kp LEFT_SHIFT>,
+                <&macro_release>;
 
             label = "ALT_TAB";
         };
