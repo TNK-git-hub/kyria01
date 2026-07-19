@@ -15,13 +15,13 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - A
-  - S
-  - D
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - H
   - J
-  - K
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-control$$', type: held alternate}
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -332,11 +332,10 @@ layers:
 combos:
 - p: [30, 14]
   k: {t: '$$mdi:keyboard-space$$', h: mouse_control}
-- p: [30, 16]
-  k: $$mdi:apple-keyboard-shift$$
-- p: [33, 19]
-  k: $$mdi:apple-keyboard-shift$$
 - p: [24, 25]
   k: '&ctrlShiftCombo'
 - p: [12, 0]
   k: {t: onekeyboardControl, h: toggle}
+- p: [15, 14]
+  k: cursor_layer
+  l: [Default Layer]
