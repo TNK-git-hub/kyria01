@@ -130,16 +130,6 @@
             key-positions = <30 14>;
         };
 
-        leftShiftCombo {
-            bindings = <&kp LSHIFT>;
-            key-positions = <30 16>;
-        };
-
-        rightShiftCombo {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <33 19>;
-        };
-
         ctrl-shift-combo {
             bindings = <&ctrlShiftCombo>;
             key-positions = <24 25>;
@@ -148,6 +138,12 @@
         one-keyboard-control {
             bindings = <&to 4>;
             key-positions = <12 0>;
+        };
+
+        hightligt_text_combo {
+            bindings = <&mo 1>;
+            key-positions = <15 14>;
+            layers = <0>;
         };
     };
 
@@ -199,10 +195,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E  &kp R  &kp T                                                              &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D  &kp F  &kp G                                                              &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B        &alt_tab     &kp LEFT_GUI  &mmv MOVE_DOWN  &kp SPACE  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                                       &lt 1 MINUS  &lt 2 SPACE  &tog 3        &kp LCTRL       &kp SPACE  &kp EQUAL
+&kp ESC    &kp Q  &kp W        &kp E             &kp R  &kp T                                                              &kp Y      &kp U  &kp I              &kp O    &kp P     &kp BSPC
+&kp TAB    &kp A  &mt RCTRL S  &mt LEFT_SHIFT D  &kp F  &kp G                                                              &kp H      &kp J  &mt RIGHT_SHIFT K  &kp L    &kp SEMI  &kp ENTER
+&kp LSHFT  &kp Z  &kp X        &kp C             &kp V  &kp B        &alt_tab     &kp LEFT_GUI  &mmv MOVE_DOWN  &kp SPACE  &kp N      &kp M  &kp COMMA          &kp DOT  &kp FSLH  &kp RSHIFT
+                                                        &lt 1 MINUS  &lt 2 SPACE  &tog 3        &kp LCTRL       &kp SPACE  &kp EQUAL
             >;
         };
 
