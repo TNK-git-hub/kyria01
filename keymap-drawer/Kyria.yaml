@@ -27,9 +27,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
-  - {t: AC CUT, h: X}
-  - {t: AC COPY, h: C}
-  - {t: AC PASTE, h: V}
+  - {t: X, h: AC CUT}
+  - {t: C, h: AC COPY}
+  - {t: V, h: AC PASTE}
   - B
   - '&alt_tab'
   - $$mdi:apple-keyboard-command$$
@@ -282,7 +282,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '6':
+  funtion:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
