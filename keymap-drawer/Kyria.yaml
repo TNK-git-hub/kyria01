@@ -27,9 +27,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
-  - X
-  - C
-  - V
+  - {t: AC CUT, h: X}
+  - {t: AC COPY, h: C}
+  - {t: AC PASTE, h: V}
   - B
   - '&alt_tab'
   - $$mdi:apple-keyboard-command$$
@@ -235,7 +235,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  '5':
+  gaming:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
