@@ -33,7 +33,7 @@ layers:
   - B
   - '&alt_tab'
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - N
   - M
