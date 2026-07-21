@@ -158,9 +158,14 @@
             key-positions = <33 34>;
         };
 
-        bt_01 {
+        bt_0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <43 32>;
+        };
+
+        bt_1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <43 33>;
         };
     };
 
