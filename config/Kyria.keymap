@@ -145,6 +145,12 @@
             key-positions = <15 14>;
             layers = <0>;
         };
+
+        back_comma {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 2>;
+            layers = <2>;
+        };
     };
 
     macros {
@@ -187,6 +193,20 @@
 
             label = "ZMK_MACRO";
         };
+
+        ctrl_a: ctrl_a {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_press>,
+                <&kp A>,
+                <&macro_release>,
+                <&kp RCTRL>;
+
+            label = "CTRL_A";
+        };
     };
 
     keymap {
@@ -195,10 +215,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp ESC    &kp Q  &kp W           &kp E             &kp R             &kp T                                                                    &kp Y      &kp U  &kp I              &kp O    &kp P     &kp BSPC
-&kp TAB    &kp A  &mt RCTRL S     &mt LEFT_SHIFT D  &kp F             &kp G                                                                    &kp H      &kp J  &mt RIGHT_SHIFT K  &kp L    &kp SEMI  &kp ENTER
-&kp LSHFT  &kp Z  &mt C_AC_CUT X  &mt C_AC_COPY C   &mt C_AC_PASTE V  &kp B        &alt_tab     &kp LEFT_GUI  &kp ENTER  &kp NON_US_BACKSLASH  &kp N      &kp M  &kp COMMA          &kp DOT  &kp FSLH  &kp RSHIFT
-                                                                      &lt 1 MINUS  &lt 3 SPACE  &tog 2        &kp LCTRL  &kp SPACE             &kp EQUAL
+&kp ESC    &kp Q             &kp W           &kp E             &kp R             &kp T                                                                    &kp Y      &kp U  &kp I      &kp O    &kp P                 &kp BSPC
+&kp TAB    &mt LEFT_SHIFT A  &mt RCTRL S     &mt LEFT_SHIFT D  &kp F             &kp G                                                                    &kp H      &kp J  &kp K      &kp L    &mt RIGHT_SHIFT SEMI  &kp SQT
+&kp LSHFT  &kp Z             &mt C_AC_CUT X  &mt C_AC_COPY C   &mt C_AC_PASTE V  &kp B        &alt_tab     &kp LEFT_GUI  &kp ENTER  &kp NON_US_BACKSLASH  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH              &kp RSHIFT
+                                                                                 &lt 1 MINUS  &lt 3 SPACE  &tog 2        &kp LCTRL  &kp SPACE             &kp EQUAL
             >;
         };
 
@@ -267,6 +287,15 @@
 &trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F11  &kp F12  &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                           &trans   &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        symbol {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
