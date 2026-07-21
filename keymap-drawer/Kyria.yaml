@@ -393,3 +393,5 @@ combos:
   k: BT CLR ALL
 - p: [43, 32]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
+- p: [43, 33]
+  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
