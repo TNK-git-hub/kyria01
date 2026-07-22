@@ -126,11 +126,6 @@
     combos {
         compatible = "zmk,combos";
 
-        mouse_control_combo {
-            bindings = <&lt 1 SPACE>;
-            key-positions = <30 14>;
-        };
-
         ctrl-shift-combo {
             bindings = <&ctrlShiftCombo>;
             key-positions = <24 25>;
@@ -194,25 +189,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&lt 4 LEFT_SHIFT &kp LCTRL &kp LEFT_SHIFT>,
+                <&kp LCTRL &kp LEFT_SHIFT>,
                 <&macro_release>,
-                <&lt 4 LEFT_SHIFT &kp LCTRL &kp LEFT_SHIFT>;
+                <&kp LCTRL &kp LEFT_SHIFT>;
 
             label = "CTRLSHIFTCOMBO";
-        };
-
-        zmk_macro: zmk_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&kp Z &kp M &kp K>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT>;
-
-            label = "ZMK_MACRO";
         };
 
         ctrl_a: ctrl_a {
@@ -227,6 +208,20 @@
                 <&kp RCTRL>;
 
             label = "CTRL_A";
+        };
+
+        delete_word: delete_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp LEFT_ARROW &kp BACKSPACE>,
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_SHIFT>;
+
+            label = "DELETE_WORD";
         };
     };
 
