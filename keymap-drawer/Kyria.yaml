@@ -43,7 +43,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '-', h: cursor_layer, s: _}
   - {t: '$$mdi:keyboard-space$$', h: mouse_control}
-  - {t: number_row, h: toggle}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - {t: '=', s: +}
