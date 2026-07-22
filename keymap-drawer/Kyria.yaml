@@ -27,9 +27,9 @@ layers:
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
-  - {t: X, h: AC CUT}
-  - {t: C, h: AC COPY}
-  - {t: V, h: AC PASTE}
+  - X
+  - C
+  - V
   - B
   - '&alt_tab'
   - $$mdi:apple-keyboard-command$$
