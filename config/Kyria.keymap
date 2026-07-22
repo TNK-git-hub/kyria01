@@ -111,7 +111,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CURSORANDMOUSE ";
             #binding-cells = <0>;
-            bindings = <&lt 4 SPACE>, <&lt 2 SPACE>;
+            bindings = <&lt 4 SPACE>, <&lt 1 SPACE>;
 
             tapping-term-ms = <400>;
         };
@@ -127,7 +127,7 @@
         compatible = "zmk,combos";
 
         mouse_control_combo {
-            bindings = <&lt 2 SPACE>;
+            bindings = <&lt 1 SPACE>;
             key-positions = <30 14>;
         };
 
@@ -142,7 +142,7 @@
         };
 
         hightligt_text_combo {
-            bindings = <&mo 1>;
+            bindings = <&mo 2>;
             key-positions = <15 14>;
             layers = <0>;
         };
@@ -150,7 +150,7 @@
         back_comma {
             bindings = <&kp GRAVE>;
             key-positions = <1 2>;
-            layers = <2>;
+            layers = <1>;
         };
 
         bt_cl_all {
@@ -169,7 +169,7 @@
         };
 
         number_row_combo {
-            bindings = <&tog 2>;
+            bindings = <&tog 1>;
             key-positions = <16 19>;
         };
     };
@@ -239,8 +239,19 @@
 &kp ESC    &kp Q             &kp W        &kp E             &kp R  &kp T                                                               &kp Y      &kp U  &kp I      &kp O    &kp P                 &kp BSPC
 &kp TAB    &mt LEFT_SHIFT A  &mt RCTRL S  &mt LEFT_SHIFT D  &kp F  &kp G                                                               &kp H      &kp J  &kp K      &kp L    &mt RIGHT_SHIFT SEMI  &kp SQT
 &kp LSHFT  &kp Z             &kp X        &kp C             &kp V  &kp B        &alt_tab     &kp LEFT_GUI  &lt 6 BACKSLASH  &kp ENTER  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH              &kp RSHIFT
-                                                                   &lt 1 MINUS  &lt 3 SPACE  &kp LCTRL     &kp LCTRL        &kp SPACE  &kp EQUAL
+                                                                   &lt 2 MINUS  &lt 3 SPACE  &kp LCTRL     &kp LCTRL        &kp SPACE  &kp EQUAL
             >;
+        };
+
+        number_row {
+            bindings = <
+&trans  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5                                  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &trans        &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                              &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
         };
 
         cursor_layer {
@@ -255,17 +266,6 @@
             sensor-bindings =
                 <&inc_dec_kp DOWN UP_ARROW>,
                 <&inc_dec_kp RIGHT LEFT>;
-        };
-
-        number_row {
-            bindings = <
-&trans  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5                                  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &trans        &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                              &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
         };
 
         mouse_control {
