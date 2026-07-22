@@ -33,7 +33,7 @@ layers:
   - B
   - '&alt_tab'
   - $$mdi:apple-keyboard-command$$
-  - {t: \, s: '|'}
+  - {t: \, h: function, s: '|'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - N
   - M
@@ -315,7 +315,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
