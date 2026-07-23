@@ -395,3 +395,5 @@ combos:
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
 - p: [16, 19]
   k: {t: number_row, h: toggle}
+- p: [16, 41]
+  k: {t: mouse_control, h: toggle}
