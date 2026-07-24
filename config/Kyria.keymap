@@ -172,6 +172,11 @@
             bindings = <&tog 3>;
             key-positions = <16 41>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <14 13>;
+        };
     };
 
     macros {
