@@ -397,3 +397,5 @@ combos:
   k: {t: number_row, h: toggle}
 - p: [16, 41]
   k: {t: mouse_control, h: toggle}
+- p: [14, 13]
+  k: $$mdi:keyboard-esc$$
