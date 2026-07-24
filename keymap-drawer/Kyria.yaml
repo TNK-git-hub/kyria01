@@ -178,7 +178,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv_down MOVE_DOWN'
   - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
