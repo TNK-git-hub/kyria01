@@ -154,7 +154,7 @@
         back_comma {
             bindings = <&kp GRAVE>;
             key-positions = <1 2>;
-            layers = <1>;
+            layers = <1 7>;
         };
 
         bt_cl_all {
