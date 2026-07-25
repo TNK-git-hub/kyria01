@@ -258,7 +258,7 @@
                 <&kp LCTRL &kp LEFT_SHIFT>,
                 <&macro_tap>,
                 <&kp LEFT_ARROW &kp BACKSPACE>,
-                <&macro_press>,
+                <&macro_release>,
                 <&kp LCTRL &kp LEFT_SHIFT>;
 
             label = "DELETE_WORD";
