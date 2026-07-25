@@ -401,5 +401,7 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [15, 16]
   k: $$mdi:apple-keyboard-shift$$
+  l: [Default Layer]
 - p: [19, 20]
   k: $$mdi:apple-keyboard-shift$$
+  l: [Default Layer]
