@@ -130,6 +130,15 @@
             x-input-code = <200>;
             time-to-max-speed-ms = <0>;
         };
+
+        shift: shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SHIFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <400>;
+        };
     };
 
     combos {
@@ -250,10 +259,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp ESC    &kp Q             &kp W        &kp E             &kp R  &kp T                                                                 &kp Y      &kp U  &kp I      &kp O    &kp P                 &kp BSPC
-&kp TAB    &mt LEFT_SHIFT A  &mt RCTRL S  &mt LEFT_SHIFT D  &kp F  &kp G                                                                 &kp H      &kp J  &kp K      &kp L    &mt RIGHT_SHIFT SEMI  &kp SQT
-&kp LSHFT  &kp Z             &kp X        &kp C             &kp V  &kp B        &alt_tab     &kp LEFT_GUI  &lt 6 BACKSLASH  &lt 7 ENTER  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH              &kp RSHIFT
-                                                                   &lt 2 MINUS  &lt 3 SPACE  &kp LCTRL     &kp LCTRL        &kp SPACE    &kp EQUAL
+&kp ESC    &kp Q           &kp W        &kp E             &kp R  &kp T                                                                 &kp Y      &kp U  &kp I      &kp O    &kp P                   &kp BSPC
+&kp TAB    &shift LSHFT A  &mt RCTRL S  &mt LEFT_SHIFT D  &kp F  &kp G                                                                 &kp H      &kp J  &kp K      &kp L    &shift LEFT_SHIFT SEMI  &kp SQT
+&kp LSHFT  &kp Z           &kp X        &kp C             &kp V  &kp B        &alt_tab     &kp LEFT_GUI  &lt 6 BACKSLASH  &lt 7 ENTER  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH                &kp RSHIFT
+                                                                 &lt 2 MINUS  &lt 3 SPACE  &kp LCTRL     &kp LCTRL        &kp SPACE    &kp EQUAL
             >;
         };
 
