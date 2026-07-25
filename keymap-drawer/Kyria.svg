@@ -2538,22 +2538,27 @@ rect.held, rect.combo.held {
 </a><text x="28" y="130" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
+<rect rx="6" ry="6" x="102" y="55" width="28" height="26" class="combo"/>
+<text x="116" y="68" class="combo tap">`</text>
+<text x="116" y="57" class="combo shifted">~</text>
+</g>
+<g class="combo combopos-3">
 <rect rx="6" ry="6" x="613" y="188" width="28" height="26" class="combo"/>
 <text x="627" y="201" class="combo tap">
 <tspan x="627" dy="-0.6em">BT</tspan><tspan x="627" dy="1.2em">…</tspan>
 </text>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="539" y="282" width="28" height="26" class="combo"/>
 <text x="553" y="306" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="545" y="284" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-5">
 <rect rx="6" ry="6" x="571" y="255" width="28" height="26" class="combo"/>
 <text x="585" y="279" class="combo hold">2</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="578" y="257" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <path d="M491,114 l-207,0" class="combo"/>
 <path d="M491,114 l207,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="101" width="28" height="26" class="combo"/>
@@ -2561,7 +2566,7 @@ rect.held, rect.combo.held {
 <text x="491" y="114" class="combo tap layer-activator"><tspan style="font-size: 60%">number_row</tspan></text>
 </a><text x="491" y="125" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <path d="M310,194 l-36,-64" class="combo"/>
 <path d="M310,194 l36,64" class="combo"/>
 <rect rx="6" ry="6" x="296" y="181" width="28" height="26" class="combo"/>
@@ -2569,7 +2574,7 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="103" y="117" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="108" y="121" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
