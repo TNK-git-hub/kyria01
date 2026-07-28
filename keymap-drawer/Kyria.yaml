@@ -109,8 +109,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:apple-keyboard-control$$', type: held alternate}
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - END
@@ -381,9 +381,6 @@ combos:
   k: '&ctrlShiftCombo'
 - p: [12, 0]
   k: {t: gaming, h: toggle}
-- p: [15, 14]
-  k: cursor_layer
-  l: [Default Layer]
 - p: [1, 2]
   k: {t: '`', s: '~'}
   l: [number_row, symbol]
@@ -397,11 +394,14 @@ combos:
   k: {t: number_row, h: toggle}
 - p: [16, 41]
   k: {t: mouse_control, h: toggle}
-- p: [14, 13]
+- p: [41, 14]
   k: $$mdi:keyboard-esc$$
-- p: [15, 16]
+- p: [15, 16, 30]
   k: $$mdi:apple-keyboard-shift$$
   l: [Default Layer]
 - p: [19, 20]
   k: $$mdi:apple-keyboard-shift$$
+  l: [Default Layer]
+- p: [15, 20]
+  k: $$mdi:apple-keyboard-caps$$
   l: [Default Layer]
