@@ -154,12 +154,6 @@
             key-positions = <12 0>;
         };
 
-        hightligt_text_combo {
-            bindings = <&mo 2>;
-            key-positions = <15 14>;
-            layers = <0>;
-        };
-
         back_comma {
             bindings = <&kp GRAVE>;
             key-positions = <1 2>;
@@ -193,12 +187,12 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <14 13>;
+            key-positions = <41 14>;
         };
 
         combo_left_shift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <15 16>;
+            key-positions = <15 16 30>;
             timeout-ms = <400>;
             layers = <0>;
         };
@@ -207,6 +201,12 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <19 20>;
             timeout-ms = <400>;
+            layers = <0>;
+        };
+
+        capslook {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <15 20>;
             layers = <0>;
         };
     };
