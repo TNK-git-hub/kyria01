@@ -386,10 +386,8 @@ combos:
   l: [number_row, symbol]
 - p: [33, 34]
   k: BT CLR ALL
-- p: [43, 32]
-  k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
 - p: [43, 33]
-  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
 - p: [16, 19]
   k: {t: number_row, h: toggle}
 - p: [16, 41]

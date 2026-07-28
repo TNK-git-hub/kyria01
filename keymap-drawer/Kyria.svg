@@ -549,16 +549,11 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="539" y="282" width="28" height="26" class="combo"/>
-<text x="553" y="306" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="545" y="284" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="571" y="255" width="28" height="26" class="combo"/>
-<text x="585" y="279" class="combo hold">2</text>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="578" y="264" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="578" y="257" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-4">
 <path d="M491,114 l-207,0" class="combo"/>
 <path d="M491,114 l207,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="101" width="28" height="26" class="combo"/>
@@ -566,7 +561,7 @@ rect.held, rect.combo.held {
 <text x="491" y="114" class="combo tap layer-activator"><tspan style="font-size: 60%">number_row</tspan></text>
 </a><text x="491" y="125" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M310,194 l-36,-64" class="combo"/>
 <path d="M310,194 l36,64" class="combo"/>
 <rect rx="6" ry="6" x="296" y="181" width="28" height="26" class="combo"/>
@@ -574,27 +569,27 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <path d="M280,182 l63,77" class="combo"/>
 <path d="M280,182 l-63,-77" class="combo"/>
 <rect rx="6" ry="6" x="266" y="169" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="271" y="173" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="221" y="89" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="226" y="93" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="733" y="89" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="738" y="93" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-9">
 <path d="M491,91 l-267,0" class="combo"/>
 <path d="M491,91 l267,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="78" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="482" y="82" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
-<g class="combo backspace combopos-11">
+<g class="combo backspace combopos-10">
 <rect rx="6" ry="6" x="851" y="117" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="856" y="121" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
@@ -864,16 +859,11 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="539" y="282" width="28" height="26" class="combo"/>
-<text x="553" y="306" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="545" y="284" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
 <rect rx="6" ry="6" x="571" y="255" width="28" height="26" class="combo"/>
-<text x="585" y="279" class="combo hold">2</text>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="578" y="264" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="578" y="257" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M491,114 l-207,0" class="combo"/>
 <path d="M491,114 l207,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="101" width="28" height="26" class="combo"/>
@@ -881,7 +871,7 @@ rect.held, rect.combo.held {
 <text x="491" y="114" class="combo tap layer-activator"><tspan style="font-size: 60%">number_row</tspan></text>
 </a><text x="491" y="125" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <path d="M310,194 l-36,-64" class="combo"/>
 <path d="M310,194 l36,64" class="combo"/>
 <rect rx="6" ry="6" x="296" y="181" width="28" height="26" class="combo"/>
@@ -889,7 +879,7 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
-<g class="combo backspace combopos-8">
+<g class="combo backspace combopos-7">
 <rect rx="6" ry="6" x="851" y="117" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="856" y="121" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
@@ -1144,16 +1134,11 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="539" y="282" width="28" height="26" class="combo"/>
-<text x="553" y="306" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="545" y="284" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="571" y="255" width="28" height="26" class="combo"/>
-<text x="585" y="279" class="combo hold">2</text>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="578" y="264" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="578" y="257" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-4">
 <path d="M491,114 l-207,0" class="combo"/>
 <path d="M491,114 l207,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="101" width="28" height="26" class="combo"/>
@@ -1161,7 +1146,7 @@ rect.held, rect.combo.held {
 <text x="491" y="114" class="combo tap layer-activator"><tspan style="font-size: 60%">number_row</tspan></text>
 </a><text x="491" y="125" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M310,194 l-36,-64" class="combo"/>
 <path d="M310,194 l36,64" class="combo"/>
 <rect rx="6" ry="6" x="296" y="181" width="28" height="26" class="combo"/>
@@ -1169,7 +1154,7 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
-<g class="combo backspace combopos-7">
+<g class="combo backspace combopos-6">
 <rect rx="6" ry="6" x="851" y="117" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="856" y="121" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
@@ -1430,16 +1415,11 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="539" y="282" width="28" height="26" class="combo"/>
-<text x="553" y="306" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="545" y="284" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="571" y="255" width="28" height="26" class="combo"/>
-<text x="585" y="279" class="combo hold">2</text>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="578" y="264" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="578" y="257" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-4">
 <path d="M491,114 l-207,0" class="combo"/>
 <path d="M491,114 l207,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="101" width="28" height="26" class="combo"/>
@@ -1447,7 +1427,7 @@ rect.held, rect.combo.held {
 <text x="491" y="114" class="combo tap layer-activator"><tspan style="font-size: 60%">number_row</tspan></text>
 </a><text x="491" y="125" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M310,194 l-36,-64" class="combo"/>
 <path d="M310,194 l36,64" class="combo"/>
 <rect rx="6" ry="6" x="296" y="181" width="28" height="26" class="combo"/>
@@ -1455,7 +1435,7 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
-<g class="combo backspace combopos-7">
+<g class="combo backspace combopos-6">
 <rect rx="6" ry="6" x="851" y="117" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="856" y="121" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
@@ -1715,16 +1695,11 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="539" y="282" width="28" height="26" class="combo"/>
-<text x="553" y="306" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="545" y="284" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="571" y="255" width="28" height="26" class="combo"/>
-<text x="585" y="279" class="combo hold">2</text>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="578" y="264" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="578" y="257" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-4">
 <path d="M491,114 l-207,0" class="combo"/>
 <path d="M491,114 l207,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="101" width="28" height="26" class="combo"/>
@@ -1732,7 +1707,7 @@ rect.held, rect.combo.held {
 <text x="491" y="114" class="combo tap layer-activator"><tspan style="font-size: 60%">number_row</tspan></text>
 </a><text x="491" y="125" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M310,194 l-36,-64" class="combo"/>
 <path d="M310,194 l36,64" class="combo"/>
 <rect rx="6" ry="6" x="296" y="181" width="28" height="26" class="combo"/>
@@ -1740,7 +1715,7 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
-<g class="combo backspace combopos-7">
+<g class="combo backspace combopos-6">
 <rect rx="6" ry="6" x="851" y="117" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="856" y="121" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
@@ -1996,16 +1971,11 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="539" y="282" width="28" height="26" class="combo"/>
-<text x="553" y="306" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="545" y="284" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="571" y="255" width="28" height="26" class="combo"/>
-<text x="585" y="279" class="combo hold">2</text>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="578" y="264" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="578" y="257" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-4">
 <path d="M491,114 l-207,0" class="combo"/>
 <path d="M491,114 l207,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="101" width="28" height="26" class="combo"/>
@@ -2013,7 +1983,7 @@ rect.held, rect.combo.held {
 <text x="491" y="114" class="combo tap layer-activator"><tspan style="font-size: 60%">number_row</tspan></text>
 </a><text x="491" y="125" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M310,194 l-36,-64" class="combo"/>
 <path d="M310,194 l36,64" class="combo"/>
 <rect rx="6" ry="6" x="296" y="181" width="28" height="26" class="combo"/>
@@ -2021,7 +1991,7 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
-<g class="combo backspace combopos-7">
+<g class="combo backspace combopos-6">
 <rect rx="6" ry="6" x="851" y="117" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="856" y="121" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
@@ -2276,16 +2246,11 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="539" y="282" width="28" height="26" class="combo"/>
-<text x="553" y="306" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="545" y="284" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-4">
 <rect rx="6" ry="6" x="571" y="255" width="28" height="26" class="combo"/>
-<text x="585" y="279" class="combo hold">2</text>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="578" y="264" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="578" y="257" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-4">
 <path d="M491,114 l-207,0" class="combo"/>
 <path d="M491,114 l207,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="101" width="28" height="26" class="combo"/>
@@ -2293,7 +2258,7 @@ rect.held, rect.combo.held {
 <text x="491" y="114" class="combo tap layer-activator"><tspan style="font-size: 60%">number_row</tspan></text>
 </a><text x="491" y="125" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M310,194 l-36,-64" class="combo"/>
 <path d="M310,194 l36,64" class="combo"/>
 <rect rx="6" ry="6" x="296" y="181" width="28" height="26" class="combo"/>
@@ -2301,7 +2266,7 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
-<g class="combo backspace combopos-7">
+<g class="combo backspace combopos-6">
 <rect rx="6" ry="6" x="851" y="117" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="856" y="121" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
@@ -2563,16 +2528,11 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="539" y="282" width="28" height="26" class="combo"/>
-<text x="553" y="306" class="combo hold">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="545" y="284" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
-</g>
-<g class="combo combopos-5">
 <rect rx="6" ry="6" x="571" y="255" width="28" height="26" class="combo"/>
-<text x="585" y="279" class="combo hold">2</text>
+<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="578" y="264" height="15" width="15.0" class="combo hold glyph mdi:arrow-down-bold"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="578" y="257" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-5">
 <path d="M491,114 l-207,0" class="combo"/>
 <path d="M491,114 l207,0" class="combo"/>
 <rect rx="6" ry="6" x="477" y="101" width="28" height="26" class="combo"/>
@@ -2580,7 +2540,7 @@ rect.held, rect.combo.held {
 <text x="491" y="114" class="combo tap layer-activator"><tspan style="font-size: 60%">number_row</tspan></text>
 </a><text x="491" y="125" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <path d="M310,194 l-36,-64" class="combo"/>
 <path d="M310,194 l36,64" class="combo"/>
 <rect rx="6" ry="6" x="296" y="181" width="28" height="26" class="combo"/>
@@ -2588,7 +2548,7 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
-<g class="combo backspace combopos-8">
+<g class="combo backspace combopos-7">
 <rect rx="6" ry="6" x="851" y="117" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="856" y="121" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
