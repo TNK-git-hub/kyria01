@@ -406,3 +406,5 @@ combos:
 - p: [15, 20]
   k: $$mdi:apple-keyboard-caps$$
   l: [Default Layer]
+- p: [21, 22]
+  k: {t: '$$mdi:backspace$$', type: backspace}
