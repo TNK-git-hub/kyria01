@@ -211,6 +211,11 @@
             key-positions = <15 20>;
             layers = <0>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <21 22>;
+        };
     };
 
     macros {
