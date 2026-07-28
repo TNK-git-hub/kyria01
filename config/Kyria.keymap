@@ -187,7 +187,9 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <41 14>;
+            key-positions = <41 15>;
+            layers = <0>;
+            timeout-ms = <400>;
         };
 
         combo_left_shift {
