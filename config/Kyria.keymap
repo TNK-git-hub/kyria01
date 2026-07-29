@@ -111,7 +111,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CURSORANDMOUSE ";
             #binding-cells = <0>;
-            bindings = <&lt 4 SPACE>, <&lt 1 SPACE>;
+            bindings = <&lt 5 SPACE>, <&lt 1 SPACE>;
 
             tapping-term-ms = <400>;
         };
@@ -138,6 +138,20 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <800>;
+        };
+
+        leftbracket_tapdance: leftbracket_tapdance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LEFTBRACKET_TAPDANCE";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;
+        };
+
+        rightbracker_tapdance: rightbracker_tapdance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "RIGHTBRACKER_TAPDANCE";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_BRACKET>, <&kp RIGHT_BRACE>;
         };
     };
 
@@ -177,7 +191,7 @@
         };
 
         toggle_mouse {
-            bindings = <&tog 3>;
+            bindings = <&tog 2>;
             key-positions = <16 41>;
         };
 
@@ -192,14 +206,14 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <15 16>;
             timeout-ms = <400>;
-            layers = <0>;
+            layers = <0 7>;
         };
 
         combo_right_shift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <19 20>;
             timeout-ms = <400>;
-            layers = <0>;
+            layers = <0 7>;
         };
 
         capslook {
@@ -279,7 +293,7 @@
 &kp ESC    &kp Q  &kp W  &kp E  &kp R  &kp T                                                                 &kp Y      &kp U  &kp I      &kp O    &kp P          &kp BSPC
 &kp TAB    &kp A  &kp S  &kp D  &kp F  &kp G                                                                 &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B        &alt_tab     &kp LEFT_GUI  &lt 6 BACKSLASH  &lt 7 ENTER  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RSHIFT
-                                       &lt 2 MINUS  &lt 3 SPACE  &kp LCTRL     &kp LCTRL        &kp SPACE    &kp EQUAL
+                                       &lt 4 MINUS  &lt 2 SPACE  &kp LCTRL     &kp LCTRL        &kp SPACE    &kp EQUAL
             >;
         };
 
@@ -289,6 +303,18 @@
 &trans  &trans        &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                               &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
+        };
+
+        mouse_control {
+            display-name = "mouse_control";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                     &trans  &msc SCRL_DOWN  &mmv MOVE_UP         &msc SCRL_UP     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN       &mmv MOVE_RIGHT  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &msc SCRL_LEFT  &mmv_down MOVE_DOWN  &msc SCRL_RIGHT  &trans     &trans
+                                        &trans  &trans  &trans  &trans  &mkp LCLK  &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
@@ -306,18 +332,6 @@
             sensor-bindings =
                 <&inc_dec_kp DOWN UP_ARROW>,
                 <&inc_dec_kp RIGHT LEFT>;
-        };
-
-        mouse_control {
-            display-name = "mouse_control";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                     &trans  &msc SCRL_DOWN  &mmv MOVE_UP         &msc SCRL_UP     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN       &mmv MOVE_RIGHT  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &msc SCRL_LEFT  &mmv_down MOVE_DOWN  &msc SCRL_RIGHT  &trans     &trans
-                                        &trans  &trans  &trans  &trans  &mkp LCLK  &trans
-            >;
-
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
         };
 
         onekeyboardControl {
@@ -353,10 +367,19 @@
 
         symbol {
             bindings = <
-&trans  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT                                  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
-&trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                 &trans  &trans
+&trans  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT                                  &trans  &trans  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &trans  &trans
+&trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &trans  &trans  &leftbracket_tapdance  &rightbracker_tapdance  &trans  &trans
+&trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans                  &trans  &trans
                                                         &trans       &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        testing_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
