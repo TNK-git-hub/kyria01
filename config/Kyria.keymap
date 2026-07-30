@@ -276,7 +276,7 @@
                 <&macro_press>,
                 <&kp LCTRL &kp LEFT_SHIFT>,
                 <&macro_tap>,
-                <&kp LEFT_ARROW &kp BACKSPACE>,
+                <&kp LEFT_ARROW>,
                 <&macro_release>,
                 <&kp LCTRL &kp LEFT_SHIFT>;
 
@@ -293,7 +293,7 @@
 &kp ESC    &kp Q  &kp W  &kp E  &kp R  &kp T                                                                 &kp Y      &kp U  &kp I      &kp O    &kp P          &kp BSPC
 &kp TAB    &kp A  &kp S  &kp D  &kp F  &kp G                                                                 &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B        &alt_tab     &kp LEFT_GUI  &lt 6 BACKSLASH  &lt 7 ENTER  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RSHIFT
-                                       &lt 3 MINUS  &lt 2 SPACE  &kp LCTRL     &kp LCTRL        &kp SPACE    &kp EQUAL
+                                       &lt 3 MINUS  &lt 2 SPACE  &kp LCTRL     &kp RCTRL        &kp SPACE    &kp EQUAL
             >;
         };
 
@@ -374,7 +374,16 @@
             >;
         };
 
-        testing_layer {
+        window_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_9 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
