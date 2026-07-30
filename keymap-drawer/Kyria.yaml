@@ -486,9 +486,8 @@ combos:
   k: {t: number_row, h: toggle}
 - p: [16, 41]
   k: {t: mouse_control, h: toggle}
-- p: [41, 15]
+- p: [41, 15, 24, 25]
   k: $$mdi:keyboard-esc$$
-  l: [Default Layer]
 - p: [15, 16]
   k: $$mdi:apple-keyboard-shift$$
   l: [Default Layer, symbol]
