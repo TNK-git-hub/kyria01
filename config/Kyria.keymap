@@ -374,9 +374,9 @@
 
         symbol {
             bindings = <
-&trans  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT                                  &trans  &trans  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &trans  &trans
-&trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &trans  &trans  &leftbracket_tapdance  &rightbracker_tapdance  &trans  &trans
-&trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans                  &trans  &trans
+&trans  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT                                  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+&trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                 &trans  &trans
                                                         &trans       &trans  &trans  &trans  &trans  &trans
             >;
         };
