@@ -282,7 +282,7 @@
                 <&macro_press>,
                 <&kp LCTRL &kp LEFT_SHIFT>,
                 <&macro_tap>,
-                <&kp LEFT_ARROW>,
+                <&kp LEFT_ARROW &kp BACKSPACE>,
                 <&macro_release>,
                 <&kp LCTRL &kp LEFT_SHIFT>;
 
@@ -304,7 +304,7 @@
                 <&macro_press>,
                 <&kp LCTRL &kp LEFT_SHIFT>,
                 <&macro_tap>,
-                <&kp LEFT_ARROW &kp BACKSPACE>,
+                <&kp LEFT_ARROW>,
                 <&macro_release>,
                 <&kp LCTRL &kp LEFT_SHIFT>;
 
@@ -352,7 +352,7 @@
             display-name = "cursor_layer";
             bindings = <
 &trans  &trans  &trans     &trans          &trans  &trans                                         &kp HOME  &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &kp BACKSPACE  &trans
-&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &trans  &trans                                         &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &delete_word   &trans
+&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &trans  &trans                                         &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hi_prv        &trans
 &trans  &trans  &trans     &trans          &trans  &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans    &trans          &trans          &trans           &trans         &trans
                                                    &trans  &trans  &trans  &trans      &trans     &trans
             >;
