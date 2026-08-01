@@ -224,6 +224,13 @@
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <21 22>;
+            layers = <0 1>;
+        };
+
+        delete_word_combo {
+            bindings = <&delete_word>;
+            key-positions = <21 22>;
+            layers = <3>;
         };
     };
 
@@ -288,6 +295,20 @@
             bindings = <&none>, <&macro_press>;
 
             label = "TEST_MACRO_HOLD";
+        };
+
+        hi_prv: hi_prv {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp LEFT_ARROW &kp BACKSPACE>,
+                <&macro_release>,
+                <&kp LCTRL &kp LEFT_SHIFT>;
+
+            label = "HI_PRV";
         };
     };
 
