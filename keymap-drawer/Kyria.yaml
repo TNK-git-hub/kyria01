@@ -46,7 +46,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
-  - {t: '=', s: +}
+  - {t: '=', h: seting, s: +}
   number_row:
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
@@ -469,7 +469,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
 combos:
 - p: [24, 25]
   k: '&ctrlShiftCombo'
