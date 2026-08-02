@@ -289,14 +289,6 @@
             label = "DELETE_WORD";
         };
 
-        test_macro_hold: test_macro_hold {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>, <&macro_press>;
-
-            label = "TEST_MACRO_HOLD";
-        };
-
         hi_prv: hi_prv {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
