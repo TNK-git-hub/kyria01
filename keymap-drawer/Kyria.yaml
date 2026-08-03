@@ -550,3 +550,5 @@ combos:
 - p: [21, 22]
   k: '&delete_word'
   l: [cursor_layer]
+- p: [31, 42]
+  k: {t: gaming1st_person, h: toggle}
