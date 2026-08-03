@@ -302,6 +302,20 @@
 
             label = "HI_PRV";
         };
+
+        shift_f10: shift_f10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp F10>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "SHIFT_F10";
+        };
     };
 
     keymap {
@@ -343,10 +357,10 @@
         cursor_layer {
             display-name = "cursor_layer";
             bindings = <
-&trans  &trans  &trans     &trans          &trans  &trans                                         &kp HOME  &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &kp BACKSPACE  &trans
-&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &trans  &trans                                         &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hi_prv        &trans
-&trans  &trans  &trans     &trans          &trans  &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans    &trans          &trans          &trans           &trans         &trans
-                                                   &trans  &trans  &trans  &trans      &trans     &trans
+&trans  &trans  &trans     &trans          &trans  &trans                                         &kp HOME    &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &kp BACKSPACE  &trans
+&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &trans  &trans                                         &kp END     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hi_prv        &trans
+&trans  &trans  &trans     &trans          &trans  &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans      &trans          &trans          &trans           &trans         &trans
+                                                   &trans  &trans  &trans  &trans      &trans     &shift_f10
             >;
 
             sensor-bindings =
