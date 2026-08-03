@@ -232,6 +232,11 @@
             key-positions = <21 22>;
             layers = <3>;
         };
+
+        firstP_gaming {
+            bindings = <&tog 10>;
+            key-positions = <31 42>;
+        };
     };
 
     macros {
