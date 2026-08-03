@@ -520,6 +520,7 @@ layers:
 combos:
 - p: [24, 25]
   k: '&ctrlShiftCombo'
+  l: [Default Layer, number_row, symbol]
 - p: [12, 0]
   k: {t: general_gaming, h: toggle}
 - p: [1, 2]
@@ -531,8 +532,10 @@ combos:
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
 - p: [16, 19]
   k: {t: number_row, h: toggle}
+  l: [Default Layer, number_row]
 - p: [16, 41]
   k: {t: mouse_control, h: toggle}
+  l: [Default Layer, mouse_control]
 - p: [41, 15]
   k: $$mdi:keyboard-esc$$
 - p: [15, 16]
@@ -552,3 +555,4 @@ combos:
   l: [cursor_layer]
 - p: [31, 42]
   k: {t: gaming1st_person, h: toggle}
+  l: [Default Layer, number_row, symbol, gaming1st_person]
