@@ -161,6 +161,7 @@
         ctrl-shift-combo {
             bindings = <&ctrlShiftCombo>;
             key-positions = <24 25>;
+            layers = <0 1 7>;
         };
 
         one-keyboard-control {
@@ -188,11 +189,13 @@
         number_row_combo {
             bindings = <&tog 1>;
             key-positions = <16 19>;
+            layers = <0 1>;
         };
 
         toggle_mouse {
             bindings = <&tog 2>;
             key-positions = <16 41>;
+            layers = <0 2>;
         };
 
         esc {
@@ -225,6 +228,7 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <21 22>;
             layers = <0 1>;
+            timeout-ms = <300>;
         };
 
         delete_word_combo {
@@ -236,6 +240,7 @@
         firstP_gaming {
             bindings = <&tog 10>;
             key-positions = <31 42>;
+            layers = <0 1 7 10>;
         };
     };
 
