@@ -439,7 +439,7 @@
 
         gaming1st_person {
             bindings = <
-&trans  &kp TAB    &kp Q  &kp W  &kp E  &kp R                                         &trans  &trans          &mmv MOVE_UP    &trans           &trans     &trans
+&trans  &kp TAB    &kp Q  &kp W  &kp E  &kp R                                         &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
 &trans  &kp LSHFT  &kp A  &kp S  &kp D  &kp F                                         &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
 &trans  &trans     &kp Z  &kp X  &kp C  &kp V   &trans     &trans  &trans  &trans     &trans  &trans          &trans          &trans           &trans     &trans
                                         &trans  &kp SPACE  &trans  &trans  &mkp LCLK  &trans
