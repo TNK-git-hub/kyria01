@@ -202,6 +202,7 @@
             bindings = <&kp ESCAPE>;
             key-positions = <41 15>;
             timeout-ms = <400>;
+            layers = <0 1>;
         };
 
         combo_left_shift {
