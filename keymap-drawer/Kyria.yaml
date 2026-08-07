@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: Kyria}
 layers:
   Default Layer:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - Q
   - W
   - E
