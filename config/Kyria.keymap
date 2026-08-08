@@ -232,7 +232,7 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <21 22>;
             layers = <0 1>;
-            timeout-ms = <300>;
+            timeout-ms = <400>;
         };
 
         delete_word_combo {
