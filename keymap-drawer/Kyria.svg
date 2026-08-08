@@ -1187,6 +1187,12 @@ rect.held, rect.combo.held {
 <text x="310" y="194" class="combo tap layer-activator"><tspan style="font-size: 60%">mouse_con…</tspan></text>
 </a><text x="310" y="205" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-4">
+<path d="M280,182 l63,77" class="combo"/>
+<path d="M280,182 l-63,-77" class="combo"/>
+<rect rx="6" ry="6" x="266" y="169" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="271" y="173" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1237)" class="layer-cursor_layer">

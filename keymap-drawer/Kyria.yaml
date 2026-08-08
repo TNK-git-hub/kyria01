@@ -538,7 +538,7 @@ combos:
   l: [Default Layer, mouse_control]
 - p: [41, 15]
   k: $$mdi:keyboard-esc$$
-  l: [Default Layer, number_row]
+  l: [Default Layer, number_row, mouse_control]
 - p: [15, 16]
   k: $$mdi:apple-keyboard-shift$$
   l: [Default Layer, symbol, number_row]
