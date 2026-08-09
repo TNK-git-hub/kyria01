@@ -246,6 +246,11 @@
             key-positions = <31 42>;
             layers = <0 1 7 10>;
         };
+
+        togKbMouse {
+            bindings = <&tog 11>;
+            key-positions = <3 41>;
+        };
     };
 
     macros {
@@ -331,11 +336,46 @@
             label = "SHIFT_F10";
         };
 
-        new_macro: new_macro {
+        ctrlX: ctrlX {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&key_repeat>;
-            label = "NEW_MACRO";
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp X>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRLX";
+        };
+
+        ctrlC: ctrlC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRLC";
+        };
+
+        ctrlV: ctrlV {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp V>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRLV";
         };
     };
 
@@ -438,7 +478,7 @@
             >;
         };
 
-        seting_layer {
+        setting_layer {
             bindings = <
 &trans  &trans             &trans           &trans         &trans         &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRI_DEC  &kp C_BRI_INC  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -456,6 +496,15 @@
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
+        };
+
+        kbMouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &ctrlX  &ctrlC  &ctrlV  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
