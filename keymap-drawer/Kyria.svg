@@ -1508,6 +1508,12 @@ rect.held, rect.combo.held {
 <text x="280" y="151" class="combo tap layer-activator"><tspan style="font-size: 86%">kbMouse</tspan></text>
 </a><text x="280" y="162" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-5">
+<path d="M249,169 l-35,-62" class="combo"/>
+<path d="M249,169 l35,62" class="combo"/>
+<rect rx="6" ry="6" x="235" y="156" width="28" height="26" class="combo"/>
+<text x="249" y="169" class="combo tap"><tspan style="font-size: 75%">&amp;alt_tab</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1649)" class="layer-onekeyboardControl">

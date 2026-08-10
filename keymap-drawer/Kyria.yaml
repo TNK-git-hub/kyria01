@@ -608,4 +608,4 @@ combos:
   k: {t: kbMouse, h: toggle}
 - p: [15, 40]
   k: '&alt_tab'
-  l: [Default Layer, number_row]
+  l: [Default Layer, number_row, cursor_layer]
