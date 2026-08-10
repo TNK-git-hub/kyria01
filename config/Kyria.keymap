@@ -265,7 +265,7 @@
         alt_tab_combo {
             bindings = <&alt_tab>;
             key-positions = <15 40>;
-            layers = <0 1>;
+            layers = <0 1 3>;
         };
     };
 
