@@ -225,7 +225,7 @@
         capslook {
             bindings = <&kp CAPSLOCK>;
             key-positions = <15 20>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         backspace {
