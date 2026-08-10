@@ -259,13 +259,13 @@
 
         togKbMouse {
             bindings = <&tog 11>;
-            key-positions = <3 41>;
+            key-positions = <>;
             layers = <0 1 11>;
         };
 
         alt_tab_combo {
             bindings = <&alt_tab>;
-            key-positions = <15 40>;
+            key-positions = <30 3>;
             layers = <0 1 3>;
         };
     };
