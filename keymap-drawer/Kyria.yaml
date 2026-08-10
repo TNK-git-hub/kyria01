@@ -594,7 +594,7 @@ combos:
   l: [Default Layer, symbol, number_row]
 - p: [15, 20]
   k: $$mdi:apple-keyboard-caps$$
-  l: [Default Layer]
+  l: [Default Layer, number_row]
 - p: [21, 22]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [Default Layer, number_row]
