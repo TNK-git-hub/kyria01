@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - '&alt_tab'
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: \, h: function, s: '|'}
   - {t: '$$mdi:keyboard-return$$', h: symbol}
@@ -606,3 +606,6 @@ combos:
   l: [Default Layer, number_row, symbol, gaming1st_person]
 - p: [3, 41]
   k: {t: kbMouse, h: toggle}
+- p: [15, 40]
+  k: '&alt_tab'
+  l: [Default Layer, number_row]
