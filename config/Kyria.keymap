@@ -394,6 +394,19 @@
 
             label = "CTRLV";
         };
+
+        win_layer: win_layer {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 12 &kp LEFT_GUI>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 12 &kp LEFT_GUI>;
+
+            label = "WIN_LAYER";
+        };
     };
 
     keymap {
@@ -435,9 +448,9 @@
         cursor_layer {
             display-name = "cursor_layer";
             bindings = <
-&trans  &trans  &trans     &trans          &trans   &trans                                         &kp HOME    &kp ENTER        &kp UP_ARROW    &kp BACKSPACE    &kp BACKSPACE  &trans
-&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB  &trans                                         &kp END     &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &hi_prv        &trans
-&trans  &trans  &trans     &trans          &trans   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans      &kp RIGHT_SHIFT  &trans          &trans           &trans         &trans
+&trans  &trans  &trans     &trans          &trans   &trans                                         &kp HOME    &kp ENTER        &kp UP_ARROW    &kp BACKSPACE    &ctrl_a  &trans
+&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB  &trans                                         &kp END     &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &hi_prv  &trans
+&trans  &trans  &trans     &trans          &trans   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans      &kp RIGHT_SHIFT  &trans          &trans           &trans   &trans
                                                     &trans  &trans  &trans  &trans      &kp SPACE  &shift_f10
             >;
 
@@ -520,6 +533,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &ctrlX  &ctrlC  &ctrlV  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        window_navi {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans
                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
