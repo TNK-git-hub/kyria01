@@ -420,6 +420,34 @@
 
             label = "ALT_LAYER";
         };
+
+        ctrlZ: ctrlZ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp Z>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRLZ";
+        };
+
+        ctrlY: ctrlY {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp Y>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRLY";
+        };
     };
 
     keymap {
@@ -544,7 +572,7 @@
         kbMouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &ctrlX  &ctrlC  &ctrlV  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &ctrlZ  &ctrlX  &ctrlC  &ctrlV  &ctrlY                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
