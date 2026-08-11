@@ -306,7 +306,7 @@
                 <&macro_tap>,
                 <&kp A>,
                 <&macro_release>,
-                <&kp RCTRL>;
+                <&kp LCTRL>;
 
             label = "CTRL_A";
         };
