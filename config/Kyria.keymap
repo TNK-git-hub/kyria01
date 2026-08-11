@@ -407,6 +407,19 @@
 
             label = "WIN_LAYER";
         };
+
+        alt_layer: alt_layer {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 13 &kp LEFT_ALT>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 13 &kp LEFT_ALT>;
+
+            label = "ALT_LAYER";
+        };
     };
 
     keymap {
@@ -415,10 +428,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp GRAVE  &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                            &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
-&kp TAB    &kp A                &kp S                &kp D                &kp F                &kp G                                                                    &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
-&kp LCTRL  &kp Z                &kp X                &kp C                &kp V                &kp B          &kp LEFT_ALT  &kp LEFT_GUI  &lt 6 BACKSLASH  &lt 7 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RSHIFT
-                                                                                               &lt 3 MINUS    &lt 2 SPACE   &kp LCTRL     &kp RCTRL        &kp SPACE    &lt 9 EQUAL
+&kp GRAVE  &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                          &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
+&kp TAB    &kp A                &kp S                &kp D                &kp F                &kp G                                                                  &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
+&kp LCTRL  &kp Z                &kp X                &kp C                &kp V                &kp B          &kp LEFT_ALT  &win_layer  &lt 6 BACKSLASH  &lt 7 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RSHIFT
+                                                                                               &lt 3 MINUS    &lt 2 SPACE   &kp LCTRL   &kp RCTRL        &kp SPACE    &lt 9 EQUAL
             >;
         };
 
@@ -543,6 +556,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans
                                         &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        alt_navi {
+            bindings = <
+&trans  &trans  &trans  &kp TAB  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans   &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
