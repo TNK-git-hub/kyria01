@@ -253,13 +253,13 @@
 
         firstP_gaming {
             bindings = <&tog 10>;
-            key-positions = <31 42>;
+            key-positions = <12 24>;
             layers = <0 1 7 10>;
         };
 
         togKbMouse {
             bindings = <&tog 11>;
-            key-positions = <>;
+            key-positions = <42 31>;
             layers = <0 1 11>;
         };
 
