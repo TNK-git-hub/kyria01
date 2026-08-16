@@ -710,3 +710,6 @@ combos:
 - p: [4, 30]
   k: '&altF4d'
   l: [Default Layer, number_row]
+- p: [31, 29]
+  k: '&winB'
+  l: [Default Layer, number_row]
