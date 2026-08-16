@@ -276,6 +276,12 @@
             key-positions = <40 9>;
             layers = <0 3 1>;
         };
+
+        altF4Combo {
+            bindings = <&altF4d>;
+            key-positions = <4 30>;
+            layers = <0 1>;
+        };
     };
 
     macros {
