@@ -282,6 +282,12 @@
             key-positions = <4 30>;
             layers = <0 1>;
         };
+
+        winBCombo {
+            bindings = <&winB>;
+            key-positions = <31 29>;
+            layers = <0 1>;
+        };
     };
 
     macros {
@@ -475,6 +481,20 @@
                 <&kp LEFT_ALT>;
 
             label = "ALTF4D";
+        };
+
+        winB: winB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI>,
+                <&macro_tap>,
+                <&kp B>,
+                <&macro_release>,
+                <&kp LEFT_GUI>;
+
+            label = "WINB";
         };
     };
 
