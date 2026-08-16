@@ -116,44 +116,6 @@
             tapping-term-ms = <400>;
         };
 
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-key-toggle";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <1>;
-        };
-
-        mmv_down: mmv_down {
-            compatible = "zmk,behavior-input-two-axis";
-            label = "MMV_DOWN";
-            #binding-cells = <1>;
-            y-input-code = <0>;
-            x-input-code = <200>;
-            time-to-max-speed-ms = <0>;
-        };
-
-        shift: shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SHIFT";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <800>;
-        };
-
-        leftbracket_tapdance: leftbracket_tapdance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "LEFTBRACKET_TAPDANCE";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;
-        };
-
-        rightbracker_tapdance: rightbracker_tapdance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "RIGHTBRACKER_TAPDANCE";
-            #binding-cells = <0>;
-            bindings = <&kp RIGHT_BRACKET>, <&kp RIGHT_BRACE>;
-        };
-
         num_row: num_row {
             compatible = "zmk,behavior-hold-tap";
             label = "NUM_ROW";
@@ -161,6 +123,46 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <400>;
+            flavor = "tap-preferred";
+        };
+
+        holdCtrlZ: holdCtrlZ {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDCTRLZ";
+            bindings = <&ctrlZ>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
+
+        holdCtrlX: holdCtrlX {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDCTRLX";
+            bindings = <&ctrlX>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
+
+        holdCtrlC: holdCtrlC {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDCTRLC";
+            bindings = <&ctrlC>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
+
+        holdCtrlV: holdCtrlV {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDCTRLV";
+            bindings = <&ctrlV>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
             flavor = "tap-preferred";
         };
     };
@@ -478,7 +480,7 @@
             bindings = <
 &kp GRAVE  &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                         &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
 &kp TAB    &kp A                &kp S                &kp D                &kp F                &kp G                                                                 &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
-&kp LCTRL  &kp Z                &kp X                &kp C                &kp V                &kp B          &alt_layer   &win_layer  &lt 6 BACKSLASH  &lt 7 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RSHIFT
+&kp LCTRL  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &kp B          &alt_layer   &win_layer  &lt 6 BACKSLASH  &lt 7 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RSHIFT
                                                                                                &lt 3 MINUS    &lt 2 SPACE  &kp LCTRL   &kp RCTRL        &kp SPACE    &lt 9 EQUAL
             >;
         };
