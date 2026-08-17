@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '&ctrlZ'}
   - {t: X, h: '&ctrlX'}
   - {t: C, h: '&ctrlC'}
