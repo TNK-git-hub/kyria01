@@ -510,6 +510,36 @@
 
             label = "WINB";
         };
+
+        RCtrlToDefault: ctrlToDefault {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp RCTRL>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp RCTRL>;
+
+            label = "CTRLTODEFAULT";
+        };
+
+        LCtrlToDefault: LCtrlToDefault {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "LCTRLTODEFAULT";
+        };
     };
 
     keymap {
@@ -521,7 +551,7 @@
 &kp GRAVE           &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                         &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
 &kp TAB             &kp A                &kp S                &kp D                &kp F                &kp G                                                                 &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
 &shiftCtrlTapDance  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &kp B          &alt_layer   &win_layer  &lt 6 BACKSLASH  &lt 7 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &shiftEnterTapDance
-                                                                                                        &lt 3 MINUS    &lt 2 SPACE  &kp LCTRL   &kp RCTRL        &kp SPACE    &lt 9 EQUAL
+                                                                                                        &lt 3 MINUS    &lt 2 SPACE  &kp LCTRL   &to 0            &kp SPACE    &lt 9 EQUAL
             >;
         };
 
