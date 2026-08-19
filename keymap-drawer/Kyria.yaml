@@ -43,8 +43,8 @@ layers:
   - '&shiftEnterTapDance'
   - {t: '-', h: cursor_layer, s: _}
   - {t: '$$mdi:keyboard-space$$', h: mouse_control}
-  - '&LCtrlToDefault'
-  - '&RCtrlToDefault'
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - {t: '=', h: setting, s: +}
   number_row:
