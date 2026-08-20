@@ -690,9 +690,6 @@ combos:
   k: $$mdi:apple-keyboard-caps$$
   l: [Default Layer, number_row]
 - p: [21, 22]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [Default Layer, number_row]
-- p: [21, 22]
   k: '&delete_word'
   l: [cursor_layer]
 - p: [12, 24]
