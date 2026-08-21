@@ -32,7 +32,7 @@ layers:
   - {t: V, h: '&ctrlV'}
   - B
   - '&alt_layer'
-  - '&win_layer'
+  - '&WinKey'
   - {t: \, h: function, s: '|'}
   - {t: '$$mdi:keyboard-return$$', h: symbol}
   - N
