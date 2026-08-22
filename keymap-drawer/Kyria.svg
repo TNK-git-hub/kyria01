@@ -660,6 +660,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="373" y="215" width="28" height="26" class="combo"/>
 <text x="387" y="228" class="combo tap">&amp;winB</text>
 </g>
+<g class="combo combopos-16">
+<path d="M328,150 l109,109" class="combo"/>
+<path d="M328,150 l-109,-109" class="combo"/>
+<rect rx="6" ry="6" x="314" y="137" width="28" height="26" class="combo"/>
+<text x="328" y="150" class="combo tap"><tspan style="font-size: 60%">&amp;winTabCom</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 412)" class="layer-number_row">
@@ -3849,6 +3855,12 @@ rect.held, rect.combo.held {
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="733" y="89" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="738" y="93" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+</g>
+<g class="combo combopos-5">
+<path d="M328,150 l109,109" class="combo"/>
+<path d="M328,150 l-109,-109" class="combo"/>
+<rect rx="6" ry="6" x="314" y="137" width="28" height="26" class="combo"/>
+<text x="328" y="150" class="combo tap"><tspan style="font-size: 60%">&amp;winTabCom</tspan></text>
 </g>
 </g>
 </g>

@@ -757,3 +757,6 @@ combos:
 - p: [31, 29]
   k: '&winB'
   l: [Default Layer, number_row]
+- p: [31, 3]
+  k: '&winTabCom'
+  l: [Default Layer, window_navi]
