@@ -313,6 +313,12 @@
             key-positions = <31 29>;
             layers = <0 1>;
         };
+
+        winTabCombo {
+            bindings = <&winTabCom>;
+            key-positions = <31 3>;
+            layers = <0 12>;
+        };
     };
 
     macros {
