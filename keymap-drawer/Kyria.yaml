@@ -32,7 +32,7 @@ layers:
   - {t: V, h: '&ctrlV'}
   - B
   - '&alt_layer'
-  - '&WinKey'
+  - '&win_layer'
   - {t: \, h: function, s: '|'}
   - {t: '$$mdi:keyboard-return$$', h: symbol}
   - N
@@ -568,7 +568,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
