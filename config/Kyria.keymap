@@ -195,7 +195,7 @@
             #binding-cells = <0>;
             bindings = <&win_layer>, <&winTabCom>;
 
-            tapping-term-ms = <400>;
+            tapping-term-ms = <300>;
         };
     };
 
