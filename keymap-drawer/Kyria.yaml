@@ -109,7 +109,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab-reverse$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
