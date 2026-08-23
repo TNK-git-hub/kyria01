@@ -197,6 +197,20 @@
 
             tapping-term-ms = <300>;
         };
+
+        LBracketTapDance: LBracketTapDance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LBRACKETTAPDANCE";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;
+        };
+
+        RBracketTapDance: RBracketTapDance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "RBRACKETTAPDANCE";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACE>;
+        };
     };
 
     combos {
@@ -657,7 +671,7 @@
         symbol {
             bindings = <
 &trans  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT                                  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+&trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &trans  &trans  &LBracketTapDance     &RBracketTapDance      &trans  &trans
 &trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                 &trans  &trans
                                                         &trans       &trans  &trans  &trans  &trans  &trans
             >;
