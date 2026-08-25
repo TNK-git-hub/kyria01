@@ -763,3 +763,9 @@ combos:
 - p: [14, 40]
   k: '&CursorHoldControl'
   l: [Default Layer, number_row]
+- p: [15, 40]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  l: [Default Layer, number_row]
+- p: [15, 14, 40]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  l: [Default Layer, number_row]
