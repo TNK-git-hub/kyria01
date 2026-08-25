@@ -761,5 +761,5 @@ combos:
   k: '&winTabCom'
   l: [Default Layer, window_navi]
 - p: [14, 40]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: '&CursorHoldControl'
   l: [Default Layer, number_row]
