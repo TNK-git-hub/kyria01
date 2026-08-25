@@ -333,6 +333,12 @@
             key-positions = <31 3>;
             layers = <0 12>;
         };
+
+        CursorCtrlCombo {
+            bindings = <&none>;
+            key-positions = <14 40>;
+            layers = <0 1>;
+        };
     };
 
     macros {
@@ -584,6 +590,19 @@
                 <&kp LEFT_GUI>;
 
             label = "WINTABCOM";
+        };
+
+        CursorHoldControl: CursorHoldControl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &mo 3>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LCTRL &mo 3>;
+
+            label = "CURSORHOLDCONTROL";
         };
     };
 
