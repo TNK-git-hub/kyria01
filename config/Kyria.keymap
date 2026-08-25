@@ -335,7 +335,7 @@
         };
 
         CursorCtrlCombo {
-            bindings = <&none>;
+            bindings = <&CursorHoldControl>;
             key-positions = <14 40>;
             layers = <0 1>;
         };
