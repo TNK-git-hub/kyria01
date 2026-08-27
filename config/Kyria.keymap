@@ -212,6 +212,15 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACE>;
         };
+
+        F10WinB: F10WinB {
+            compatible = "zmk,behavior-hold-tap";
+            label = "F10WINB";
+            bindings = <&winB>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     combos {
@@ -719,10 +728,10 @@
 
         function_layer {
             bindings = <
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp F5                                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F6  &kp F7   &kp F8   &kp F9   &kp F10                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp F13  &kp F11  &kp F12  &winB    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                           &trans   &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp F5                                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F6  &kp F7   &kp F8   &kp F9   &F10WinB 0 F10                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F13  &kp F11  &kp F12  &winB           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                           &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -776,7 +785,7 @@
         window_navi {
             bindings = <
 &trans  &trans  &trans  &kp TAB  &trans  &trans                                  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &trans  &trans  &trans   &trans  &trans                                  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans   &trans  &winB                                   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans
                                          &trans  &trans  &trans  &trans  &trans  &trans
             >;
