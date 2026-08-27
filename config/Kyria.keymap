@@ -683,9 +683,9 @@
         cursor_layer {
             display-name = "cursor_layer";
             bindings = <
-&trans  &trans  &trans     &trans          &trans   &trans                                         &kp HOME    &kp ENTER        &kp UP_ARROW    &kp BACKSPACE    &ctrl_a  &trans
-&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB  &trans                                         &kp END     &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &hi_prv  &trans
-&trans  &trans  &trans     &trans          &trans   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans      &kp RIGHT_SHIFT  &trans          &trans           &trans   &trans
+&trans  &trans  &trans     &trans          &trans   &trans                                         &trans      &kp ENTER        &kp UP_ARROW    &kp BACKSPACE    &ctrl_a  &trans
+&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB  &trans                                         &kp HOME    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &hi_prv  &trans
+&trans  &trans  &trans     &trans          &trans   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &kp END     &kp RIGHT_SHIFT  &trans          &trans           &trans   &trans
                                                     &trans  &trans  &trans  &trans      &kp SPACE  &shift_f10
             >;
 
