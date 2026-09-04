@@ -748,9 +748,6 @@ combos:
 - p: [30, 3]
   k: '&alt_tab'
   l: [Default Layer, number_row, cursor_layer]
-- p: [40, 9]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [Default Layer, cursor_layer, number_row]
 - p: [4, 30]
   k: '&altF4d'
   l: [Default Layer, number_row]
