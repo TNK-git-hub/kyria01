@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - '&shiftCtrlTapDance'
+  - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '&ctrlZ'}
   - {t: X, h: '&ctrlX'}
   - {t: C, h: '&ctrlC'}
@@ -40,7 +40,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&shiftEnterTapDance'
+  - $$mdi:apple-keyboard-shift$$
   - {t: '-', h: cursor_layer, s: _}
   - {t: '$$mdi:keyboard-space$$', h: mouse_control}
   - $$mdi:apple-keyboard-control$$
