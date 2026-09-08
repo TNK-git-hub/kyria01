@@ -29,7 +29,7 @@ layers:
   - {t: Z, h: '&ctrlZ'}
   - {t: X, h: '&ctrlX'}
   - {t: C, h: '&ctrlC'}
-  - {t: V, h: '&ctrlV'}
+  - {t: V, h: '&ctrlA'}
   - B
   - '&alt_layer'
   - '&win_layer'
