@@ -70,7 +70,7 @@ layers:
   - {t: Default Layer, h: toggle}
   - {t: Default Layer, h: toggle}
   - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
+  - '&numToDefaultKey'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Default Layer, h: toggle}
