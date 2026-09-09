@@ -206,7 +206,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;
 
-            tapping-term-ms = <500>;
+            tapping-term-ms = <600>;
         };
 
         RBracketTapDance: RBracketTapDance {
@@ -215,7 +215,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACE>;
 
-            tapping-term-ms = <500>;
+            tapping-term-ms = <600>;
         };
 
         F10WinB: F10WinB {
@@ -774,9 +774,9 @@
 
         symbol {
             bindings = <
-&trans  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT                                  &trans  &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &trans  &LBracketTapDance  &RBracketTapDance     &trans                 &trans  &trans
-&trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans             &trans                &trans                 &trans  &trans
+&trans  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT                                  &kp PLUS   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &kp MINUS  &kp SLASH     &LBracketTapDance     &RBracketTapDance      &trans  &trans
+&trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans     &trans        &trans                &trans                 &trans  &trans
                                                         &trans       &trans  &trans  &trans  &trans  &trans
             >;
         };
