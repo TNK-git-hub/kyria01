@@ -205,6 +205,8 @@
             label = "LBRACKETTAPDANCE";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;
+
+            tapping-term-ms = <500>;
         };
 
         RBracketTapDance: RBracketTapDance {
@@ -212,6 +214,8 @@
             label = "RBRACKETTAPDANCE";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACE>;
+
+            tapping-term-ms = <500>;
         };
 
         F10WinB: F10WinB {
