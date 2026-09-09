@@ -776,7 +776,7 @@
             bindings = <
 &trans  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT                                  &kp PLUS   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
 &trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &kp MINUS  &kp SLASH     &LBracketTapDance     &RBracketTapDance      &trans  &trans
-&trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans     &trans        &trans                &trans                 &trans  &trans
+&trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans     &kp CARET     &kp AMPERSAND         &trans                 &trans  &trans
                                                         &trans       &trans  &trans  &trans  &trans  &trans
             >;
         };
