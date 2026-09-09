@@ -61,32 +61,32 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
   - '&numToDefaultKey'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
-  - {t: Default Layer, h: toggle}
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
+  - '&numToDefaultKey'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
