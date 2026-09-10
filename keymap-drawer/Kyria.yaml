@@ -66,9 +66,9 @@ layers:
   - '&numToSemicolon'
   - '&numToSemicolon'
   - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
+  - '&numToH'
+  - '&numToJ'
+  - '&numToK'
   - '&numToL'
   - '&numToSemicolon'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -82,10 +82,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
+  - '&numToN'
+  - '&numToM'
+  - '&numToComma'
+  - '&numToDot'
   - '&numToSlash'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -343,11 +343,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - '&'
-  - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: /, s: '?'}
   - '&LBracketTapDance'
