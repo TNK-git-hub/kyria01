@@ -734,6 +734,111 @@
 
             label = "NUMTOL";
         };
+
+        numToDot: numToGreater {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp DOT>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp DOT>;
+
+            label = "NUMTOGREATER";
+        };
+
+        numToComma: numToColon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp COMMA>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp COMMA>;
+
+            label = "NUMTOCOLON";
+        };
+
+        numToK: numToK {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp K>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp K>;
+
+            label = "NUMTOK";
+        };
+
+        numToJ: numToJ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp J>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp J>;
+
+            label = "NUMTOJ";
+        };
+
+        numToM: numToM {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp M>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp M>;
+
+            label = "NUMTOM";
+        };
+
+        numToH: numToH {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp H>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp H>;
+
+            label = "NUMTOH";
+        };
+
+        numToN: numToN {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp N>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp N>;
+
+            label = "NUMTON";
+        };
     };
 
     keymap {
@@ -751,9 +856,9 @@
 
         number_row {
             bindings = <
-&trans  &kp NUMBER_1     &kp N2           &kp N3           &kp N4           &kp N5                                           &kp N6           &kp N7           &kp N8           &kp N9           &kp N0           &trans
-&trans  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon                                  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToL          &numToSemicolon  &trans
-&trans  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &trans  &trans  &trans  &trans  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSlash      &trans
+&trans  &kp NUMBER_1     &kp N2           &kp N3           &kp N4           &kp N5                                           &kp N6   &kp N7   &kp N8       &kp N9     &kp N0           &trans
+&trans  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon                                  &numToH  &numToJ  &numToK      &numToL    &numToSemicolon  &trans
+&trans  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &trans  &trans  &trans  &trans  &numToN  &numToM  &numToComma  &numToDot  &numToSlash      &trans
                                                                             &trans           &trans  &trans  &trans  &trans  &trans
             >;
 
@@ -819,10 +924,10 @@
 
         symbol {
             bindings = <
-&trans  &kp EXCL   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT                                  &kp PLUS   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans
-&trans  &kp CARET  &kp AMPERSAND  &kp STAR  &trans      &trans                                       &kp MINUS  &kp SLASH     &LBracketTapDance     &RBracketTapDance      &kp SEMICOLON  &trans
-&trans  &trans     &trans         &trans    &trans      &trans       &trans  &trans  &trans  &trans  &trans     &kp CARET     &kp AMPERSAND         &trans                 &trans         &trans
-                                                        &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                                    &kp PLUS   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans
+&trans  &trans    &trans  &trans    &kp CARET   &kp AMPERSAND                                  &kp MINUS  &kp SLASH     &LBracketTapDance     &RBracketTapDance      &kp SEMICOLON  &trans
+&trans  &trans    &trans  &trans    &trans      &trans         &trans  &trans  &trans  &trans  &trans     &kp CARET     &kp AMPERSAND         &trans                 &trans         &trans
+                                                &trans         &trans  &trans  &trans  &trans  &trans
             >;
         };
 
