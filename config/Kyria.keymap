@@ -864,6 +864,66 @@
 
             label = "NUMTOESC";
         };
+
+        numToA: numToA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp A>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp A>;
+
+            label = "NUMTOA";
+        };
+
+        numToZ: numToZ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp Z>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp Z>;
+
+            label = "NUMTOZ";
+        };
+
+        numToS: numToS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp S>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp S>;
+
+            label = "NUMTOS";
+        };
+
+        numToX: numToX {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp X>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp X>;
+
+            label = "NUMTOX";
+        };
     };
 
     keymap {
