@@ -292,7 +292,7 @@
         };
 
         esc {
-            bindings = <&kp ESCAPE>;
+            bindings = <&numToEsc>;
             key-positions = <41 15>;
             timeout-ms = <400>;
             layers = <0 1 2>;
@@ -848,6 +848,21 @@
                 <&kp N>;
 
             label = "NUMTON";
+        };
+
+        numToEsc: numToEsc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp ESCAPE>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp ESCAPE>;
+
+            label = "NUMTOESC";
         };
     };
 
