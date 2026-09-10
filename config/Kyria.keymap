@@ -690,19 +690,49 @@
             label = "CTRLS";
         };
 
-        numToDefaultKey: numToDefaultKey {
+        numToSemicolon: numToDefaultKey {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
                 <&to 0>,
                 <&macro_press>,
-                <&trans>,
+                <&kp SEMI>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&trans>;
+                <&kp SEMI>;
 
             label = "NUMTODEFAULTKEY";
+        };
+
+        numToSlash: numToDivide {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp SLASH>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp SLASH>;
+
+            label = "NUMTODIVIDE";
+        };
+
+        numToL: numToL {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_press>,
+                <&kp L>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp L>;
+
+            label = "NUMTOL";
         };
     };
 
@@ -721,10 +751,10 @@
 
         number_row {
             bindings = <
-&trans  &kp NUMBER_1      &kp N2            &kp N3            &kp N4            &kp N5                                            &kp N6            &kp N7            &kp N8            &kp N9            &kp N0            &trans
-&trans  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey                                  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &trans
-&trans  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &trans  &trans  &trans  &trans  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &numToDefaultKey  &trans
-                                                                                &trans            &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_1     &kp N2           &kp N3           &kp N4           &kp N5                                           &kp N6           &kp N7           &kp N8           &kp N9           &kp N0           &trans
+&trans  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon                                  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToL          &numToSemicolon  &trans
+&trans  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &trans  &trans  &trans  &trans  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSemicolon  &numToSlash      &trans
+                                                                            &trans           &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
