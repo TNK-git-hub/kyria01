@@ -61,32 +61,32 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToL'
+  - '&numToSemicolon'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
-  - '&numToDefaultKey'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSemicolon'
+  - '&numToSlash'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
