@@ -71,7 +71,7 @@ layers:
   - '&numToK'
   - '&numToL'
   - '&numToSemicolon'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&numToApostrophe'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&numToZ'
   - '&numToX'
@@ -345,14 +345,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - '&'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: /, s: '?'}
   - '&LBracketTapDance'
   - '&RBracketTapDance'
-  - {t: ;, s: ':'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -365,8 +365,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - ^
-  - '&'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
