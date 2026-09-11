@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&numToEnter'
   - '&numToN'
   - '&numToM'
   - {t: '$$mdi:transfer$$', type: trans}
