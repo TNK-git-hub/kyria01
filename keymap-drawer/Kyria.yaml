@@ -61,11 +61,11 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
+  - '&numToA'
+  - '&numToS'
+  - '&numToD'
+  - '&numToF'
+  - '&numToG'
   - '&numToH'
   - '&numToJ'
   - '&numToK'
@@ -73,20 +73,20 @@ layers:
   - '&numToSemicolon'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
-  - '&numToSemicolon'
+  - '&numToZ'
+  - '&numToX'
+  - '&numToC'
+  - '&numToV'
+  - '&numToB'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&numToN'
   - '&numToM'
-  - '&numToComma'
-  - '&numToDot'
-  - '&numToSlash'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
