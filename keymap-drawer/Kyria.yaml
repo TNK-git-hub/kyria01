@@ -60,7 +60,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '&numToEsc'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&numToTab'
   - '&numToA'
   - '&numToS'
   - '&numToD'
@@ -90,8 +90,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&numToCtrlL'
+  - '&numToCtrlR'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   mouse_control:
