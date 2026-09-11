@@ -1031,7 +1031,7 @@
 
         number_row {
             bindings = <
-&trans  &kp NUMBER_1  &kp N2   &kp N3   &kp N4   &kp N5                                   &kp N6   &kp N7   &kp N8   &kp N9   &kp N0           &trans
+&trans  &kp NUMBER_1  &kp N2   &kp N3   &kp N4   &kp N5                                   &kp N6   &kp N7   &kp N8   &kp N9   &kp N0           &numToEsc
 &trans  &numToA       &numToS  &numToD  &numToF  &numToG                                  &numToH  &numToJ  &numToK  &numToL  &numToSemicolon  &trans
 &trans  &numToZ       &numToX  &numToC  &numToV  &numToB  &trans  &trans  &trans  &trans  &numToN  &numToM  &trans   &trans   &trans           &trans
                                                  &trans   &trans  &trans  &trans  &trans  &trans
