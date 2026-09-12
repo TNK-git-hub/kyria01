@@ -230,7 +230,7 @@
         holdCtrlS: holdCtrlS {
             compatible = "zmk,behavior-hold-tap";
             label = "HOLDCTRLS";
-            bindings = <&ctrlA>, <&kp>;
+            bindings = <&ctrlS>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -255,6 +255,37 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             hold-trigger-key-positions = <1 2 3 4 5 16 15 19 18 6 7 8 20 9 21>;
+            flavor = "balanced";
+        };
+
+        holdCtrlF: holdCtrlF {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDCTRLF";
+            bindings = <&ctrlF>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
+
+        holdCtrlD: holdCtrlD {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDCTRLD";
+            bindings = <&ctrlD>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
+
+        mouseLayerTap: mouseLayerTap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOUSELAYERTAP";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-trigger-key-positions = <16 1 2 3 4 13 14 15 16 25 26 27 28>;
             flavor = "balanced";
         };
     };
@@ -1104,6 +1135,34 @@
 
             label = "NUMTOENTER";
         };
+
+        ctrlF: ctrlF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp F>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRLF";
+        };
+
+        ctrlD: ctrlD {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp D>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRLD";
+        };
     };
 
     keymap {
@@ -1113,7 +1172,7 @@
             display-name = "Default Layer";
             bindings = <
 &kp GRAVE       &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                                               &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
-&kp TAB         &kp A                &kp S                &kp D                &kp F                &kp G                                                                                       &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
+&kp TAB         &holdCtrlA 0 A       &holdCtrlS 0 S       &holdCtrlD 0 D       &holdCtrlF 0 F       &kp G                                                                                       &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &kp B                    &alt_layer   &win_layer  &lt 6 BACKSLASH  &symbolLayertap 7 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
                                                                                                     &cursorLayerTap 3 MINUS  &lt 2 SPACE  &kp LCTRL   &kp RCTRL        &kp SPACE                &lt 9 EQUAL
             >;
@@ -1133,10 +1192,10 @@
         mouse_control {
             display-name = "mouse_control";
             bindings = <
-&trans  &trans  &trans       &trans     &trans   &trans                                     &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
-&trans  &trans  &kp LS(TAB)  &kp LCTRL  &kp TAB  &trans                                     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
-&trans  &trans  &trans       &trans     &trans   &trans  &trans  &trans  &trans  &trans     &trans  &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &trans     &trans
-                                                 &trans  &trans  &trans  &trans  &mkp LCLK  &trans
+&trans  &trans  &trans     &trans         &trans     &trans                                     &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
+&trans  &trans  &kp LCTRL  &kp BACKSPACE  &kp ENTER  &trans                                     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
+&trans  &trans  &trans     &trans         &trans     &trans  &trans  &trans  &trans  &trans     &trans  &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &trans     &trans
+                                                     &trans  &trans  &trans  &trans  &mkp LCLK  &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
