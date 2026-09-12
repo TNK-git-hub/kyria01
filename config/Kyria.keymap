@@ -1192,10 +1192,10 @@
         mouse_control {
             display-name = "mouse_control";
             bindings = <
-&trans  &trans  &trans     &trans         &trans     &trans                                     &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
-&trans  &trans  &kp LCTRL  &kp BACKSPACE  &kp ENTER  &trans                                     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
-&trans  &trans  &trans     &trans         &trans     &trans  &trans  &trans  &trans  &trans     &trans  &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &trans     &trans
-                                                     &trans  &trans  &trans  &trans  &mkp LCLK  &trans
+&trans  &trans  &trans     &trans  &kp BACKSPACE  &trans                                     &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
+&trans  &trans  &kp LCTRL  &trans  &kp ENTER      &trans                                     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
+&trans  &trans  &trans     &trans  &trans         &trans  &trans  &trans  &trans  &trans     &trans  &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &trans     &trans
+                                                  &trans  &trans  &trans  &trans  &mkp LCLK  &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
