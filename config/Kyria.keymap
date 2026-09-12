@@ -1163,6 +1163,32 @@
 
             label = "CTRLD";
         };
+
+        zoomIn: zoomIn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &msc SCRL_UP>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LCTRL &msc SCRL_UP>;
+
+            label = "ZOOMIN";
+        };
+
+        zoomOut: zoomOut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &msc SCRL_DOWN>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LCTRL &msc SCRL_DOWN>;
+
+            label = "ZOOMOUT";
+        };
     };
 
     keymap {
@@ -1192,10 +1218,10 @@
         mouse_control {
             display-name = "mouse_control";
             bindings = <
-&trans  &trans  &trans     &trans         &kp BACKSPACE  &trans                                     &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
-&trans  &trans  &kp LCTRL  &kp BACKSPACE  &kp ENTER      &trans                                     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
-&trans  &trans  &trans     &trans         &trans         &trans  &trans  &trans  &trans  &trans     &trans  &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &trans     &trans
-                                                         &trans  &trans  &trans  &trans  &mkp LCLK  &trans
+&trans  &trans  &trans  &trans         &kp BACKSPACE  &trans                                     &zoomIn   &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
+&trans  &trans  &trans  &kp BACKSPACE  &kp ENTER      &trans                                     &zoomOut  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans         &trans         &trans  &trans  &trans  &trans  &trans     &trans    &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &trans     &trans
+                                                      &trans  &trans  &trans  &trans  &mkp LCLK  &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
