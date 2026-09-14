@@ -337,7 +337,7 @@ layers:
   - $
   - '%'
   - +
-  - '*'
+  - {t: '-', s: _}
   - (
   - )
   - {t: '$$mdi:transfer$$', type: trans}
@@ -348,7 +348,7 @@ layers:
   - ^
   - '&'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
+  - '*'
   - {t: /, s: '?'}
   - '&LBracketTapDance'
   - '&RBracketTapDance'
