@@ -70,7 +70,7 @@ layers:
   - '&numToJ'
   - '&numToK'
   - '&numToL'
-  - '&numToSemicolon'
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&numToApostrophe'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&numToZ'
