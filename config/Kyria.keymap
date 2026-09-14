@@ -1350,7 +1350,7 @@
 
         CursorLayer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &tog 15
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &kp UP    &kp RIGHT
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &tog 15
                                         &trans  &trans  &trans  &trans  &trans  &trans
