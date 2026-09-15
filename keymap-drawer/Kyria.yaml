@@ -31,7 +31,7 @@ layers:
   - {t: C, h: '&ctrlC'}
   - {t: V, h: '&ctrlV'}
   - B
-  - {t: '$$mdi:apple-keyboard-option$$', h: '&altAndlayer'}
+  - '&altAndlayer'
   - '&winAndlayer'
   - {t: \, h: function, s: '|'}
   - {t: '$$mdi:keyboard-return$$', h: symbol}
