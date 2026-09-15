@@ -346,7 +346,6 @@
             key-positions = <15 16>;
             timeout-ms = <200>;
             layers = <0 7 1 13 12>;
-            slow-release;
         };
 
         combo_right_shift {
@@ -354,7 +353,6 @@
             key-positions = <19 20>;
             timeout-ms = <200>;
             layers = <0 7 1 13 12>;
-            slow-release;
         };
 
         capslook {
