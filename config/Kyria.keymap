@@ -195,7 +195,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "WINKEY";
             #binding-cells = <0>;
-            bindings = <&win_layer>, <&winTabCom>;
+            bindings = <&winAndlayer>, <&winTabCom>;
 
             tapping-term-ms = <300>;
         };
@@ -286,6 +286,17 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             hold-trigger-key-positions = <16 1 2 3 4 13 14 15 16 25 26 27 28>;
+            flavor = "balanced";
+        };
+
+        altLayerBehave: altLayerBehave {
+            compatible = "zmk,behavior-hold-tap";
+            label = "ALTLAYERBEHAVE";
+            bindings = <&altAndlayer>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-trigger-key-positions = <3 4>;
             flavor = "balanced";
         };
     };
@@ -547,7 +558,7 @@
             label = "CTRLV";
         };
 
-        win_layer: win_layer {
+        winAndlayer: win_layer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -562,7 +573,7 @@
             label = "WIN_LAYER";
         };
 
-        alt_layer: alt_layer {
+        altAndlayer: alt_layer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -1195,10 +1206,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp GRAVE       &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                                               &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
-&kp TAB         &holdCtrlA 0 A       &holdCtrlS 0 S       &holdCtrlD 0 D       &holdCtrlF 0 F       &kp G                                                                                       &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &kp B                    &alt_layer   &win_layer  &lt 6 BACKSLASH  &symbolLayertap 7 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &tog 15
-                                                                                                    &cursorLayerTap 3 MINUS  &lt 2 SPACE  &kp LCTRL   &kp RCTRL        &kp SPACE                &lt 9 EQUAL
+&kp GRAVE       &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                                                                &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
+&kp TAB         &holdCtrlA 0 A       &holdCtrlS 0 S       &holdCtrlD 0 D       &holdCtrlF 0 F       &kp G                                                                                                        &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &kp B                    &altLayerBehave 0 LEFT_ALT  &winAndlayer  &lt 6 BACKSLASH  &symbolLayertap 7 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &tog 15
+                                                                                                    &cursorLayerTap 3 MINUS  &lt 2 SPACE                 &kp LCTRL     &kp RCTRL        &kp SPACE                &lt 9 EQUAL
             >;
         };
 
@@ -1228,9 +1239,9 @@
         cursor_layer {
             display-name = "cursor_layer";
             bindings = <
-&trans  &trans  &trans     &trans          &trans   &trans                                         &kp HOME    &kp ENTER        &kp UP_ARROW    &kp BACKSPACE    &ctrl_a  &trans
-&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB  &trans                                         &kp END     &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &hi_prv  &trans
-&trans  &trans  &trans     &trans          &trans   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans      &kp RIGHT_SHIFT  &trans          &trans           &trans   &trans
+&trans  &trans  &trans     &trans          &trans   &trans                                         &kp HOME    &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans     &trans
+&trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB  &trans                                         &kp END     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp RCLK  &trans
+&trans  &trans  &trans     &trans          &trans   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans      &trans          &trans          &trans           &trans     &trans
                                                     &trans  &trans  &trans  &trans      &kp SPACE  &shift_f10
             >;
 
@@ -1290,10 +1301,10 @@
 
         setting_layer {
             bindings = <
-&trans  &trans             &trans           &trans         &kp PRINTSCREEN  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRI_DEC  &kp C_BRI_INC    &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp C_MUTE         &trans           &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans             &trans           &trans         &kp PRINTSCREEN  &trans                                   &kp HOME  &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans     &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRI_DEC  &kp C_BRI_INC    &kp END                                  &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp RCLK  &trans
+&trans  &kp C_MUTE         &trans           &trans         &trans           &trans   &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans           &trans     &trans
+                                                                            &trans   &trans  &trans  &trans  &trans  &trans
             >;
         };
 
