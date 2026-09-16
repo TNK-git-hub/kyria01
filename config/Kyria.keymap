@@ -565,10 +565,10 @@
                 <&macro_tap>,
                 <&to 0>,
                 <&macro_press>,
-                <&mo 12 &kp LEFT_GUI>,
+                <&kp LEFT_GUI &mo 12>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&mo 12 &kp LEFT_GUI>;
+                <&kp LEFT_GUI &mo 12>;
 
             label = "WIN_LAYER";
         };
@@ -580,10 +580,10 @@
                 <&macro_tap>,
                 <&to 0>,
                 <&macro_press>,
-                <&mo 13 &kp LEFT_ALT>,
+                <&kp LEFT_ALT &mo 13>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&mo 13 &kp LEFT_ALT>;
+                <&kp LEFT_ALT &mo 13>;
 
             label = "ALT_LAYER";
         };
