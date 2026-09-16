@@ -614,7 +614,7 @@ layers:
   alt_navi:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-tab$$
   - F4
   - {t: '$$mdi:transfer$$', type: trans}
