@@ -1283,10 +1283,10 @@
 
         symbol {
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH   &kp DOLLAR     &kp PERCENT                                  &kp PLUS      &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&trans  &trans    &trans  &kp CARET  &kp AMPERSAND  &trans                                       &kp ASTERISK  &kp SLASH  &LBracketTapDance     &RBracketTapDance      &trans  &trans
-&trans  &trans    &trans  &trans     &trans         &trans       &trans  &trans  &trans  &trans  &trans        &trans     &trans                &trans                 &trans  &trans
-                                                    &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &kp EXCL  &kp AT  &kp HASH        &kp DOLLAR       &kp PERCENT                                  &kp PLUS      &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &trans    &trans  &kp CARET       &kp AMPERSAND    &trans                                       &kp ASTERISK  &kp SLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+&trans  &trans    &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans       &trans  &trans  &trans  &trans  &trans        &trans     &trans                &trans                 &trans  &trans
+                                                           &trans       &trans  &trans  &trans  &trans  &trans
             >;
         };
 
