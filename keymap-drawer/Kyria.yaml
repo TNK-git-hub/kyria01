@@ -776,7 +776,7 @@ combos:
   l: [Default Layer, number_row, mouse_control]
 - p: [15, 16]
   k: $$mdi:apple-keyboard-shift$$
-  l: [Default Layer, symbol, number_row, alt_navi, window_navi]
+  l: [Default Layer, symbol, number_row, alt_navi, window_navi, setting]
 - p: [19, 20]
   k: $$mdi:apple-keyboard-shift$$
   l: [Default Layer, symbol, number_row, alt_navi, window_navi]
