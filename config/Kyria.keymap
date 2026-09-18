@@ -299,6 +299,16 @@
             hold-trigger-key-positions = <3 4 2>;
             flavor = "balanced";
         };
+
+        holdCtrlB: holdCtrlB {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDCTRLB";
+            bindings = <&ctrlD>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
     };
 
     combos {
@@ -1197,6 +1207,20 @@
                 <&kp LCTRL &msc SCRL_DOWN>;
 
             label = "ZOOMOUT";
+        };
+
+        ctrlB: ctrlB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp B>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRLB";
         };
     };
 
