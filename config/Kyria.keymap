@@ -356,7 +356,7 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <15 16>;
             timeout-ms = <200>;
-            layers = <0 7 1 13 12>;
+            layers = <0 7 1 13 12 9>;
         };
 
         combo_right_shift {
