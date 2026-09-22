@@ -761,7 +761,7 @@ combos:
 - p: [1, 2]
   k: {t: '`', s: '~'}
   l: [number_row, symbol]
-- p: [33, 34]
+- p: [29, 30]
   k: BT CLR ALL
 - p: [43, 33]
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
