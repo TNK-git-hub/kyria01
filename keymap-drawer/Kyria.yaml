@@ -30,7 +30,7 @@ layers:
   - {t: X, h: '&ctrlX'}
   - {t: C, h: '&ctrlC'}
   - {t: V, h: '&ctrlV'}
-  - B
+  - {t: B, h: '&ctrlB'}
   - '&altAndlayer'
   - '&winAndlayer'
   - {t: \, h: function, s: '|'}
