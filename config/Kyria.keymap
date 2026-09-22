@@ -333,7 +333,7 @@
 
         bt_cl_all {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <33 34>;
+            key-positions = <29 30>;
         };
 
         bt_next {
