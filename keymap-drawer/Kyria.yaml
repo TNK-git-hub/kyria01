@@ -425,11 +425,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   setting:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
   - PRINTSCREEN
-  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-up-bold$$
