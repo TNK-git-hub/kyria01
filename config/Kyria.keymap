@@ -592,6 +592,7 @@
                 <&kp LEFT_GUI &mo 8>;
 
             label = "WIN_LAYER";
+            wait-ms = <1>;
         };
 
         altAndlayer: alt_layer {
@@ -607,6 +608,7 @@
                 <&kp LEFT_ALT &mo 9>;
 
             label = "ALT_LAYER";
+            wait-ms = <1>;
         };
 
         ctrlZ: ctrlZ {
