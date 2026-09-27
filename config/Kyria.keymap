@@ -111,7 +111,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CURSORANDMOUSE ";
             #binding-cells = <0>;
-            bindings = <&lt 5 SPACE>, <&lt 1 SPACE>;
+            bindings = <&lt 13 SPACE>, <&lt 1 SPACE>;
 
             tapping-term-ms = <400>;
         };
@@ -328,18 +328,18 @@
         ctrl-shift-combo {
             bindings = <&ctrlShiftCombo>;
             key-positions = <24 25>;
-            layers = <0 1 7>;
+            layers = <0 1 5>;
         };
 
         one-keyboard-control {
-            bindings = <&to 5>;
+            bindings = <&to 13>;
             key-positions = <12 0>;
         };
 
         back_comma {
             bindings = <&kp GRAVE>;
             key-positions = <1 2>;
-            layers = <1 7>;
+            layers = <1 5>;
         };
 
         bt_cl_all {
@@ -377,14 +377,14 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <15 16>;
             timeout-ms = <200>;
-            layers = <0 7 1 13 12 9>;
+            layers = <0 5 1 9 8 6>;
         };
 
         combo_right_shift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <19 20>;
             timeout-ms = <200>;
-            layers = <0 7 1 13 12>;
+            layers = <0 5 1 9 8>;
         };
 
         capslook {
@@ -400,15 +400,15 @@
         };
 
         firstP_gaming {
-            bindings = <&tog 10>;
+            bindings = <&tog 15>;
             key-positions = <12 24>;
-            layers = <0 1 7 10>;
+            layers = <0 1 5 15>;
         };
 
         togKbMouse {
-            bindings = <&tog 11>;
+            bindings = <&tog 7>;
             key-positions = <42 31>;
-            layers = <0 1 11>;
+            layers = <0 1 7>;
         };
 
         alt_tab_combo {
@@ -432,7 +432,7 @@
         winTabCombo {
             bindings = <&winTabCom>;
             key-positions = <31 3>;
-            layers = <0 12>;
+            layers = <0 8>;
         };
 
         CursorCtrlCombo {
@@ -586,10 +586,10 @@
                 <&macro_tap>,
                 <&to 0>,
                 <&macro_press>,
-                <&kp LEFT_GUI &mo 12>,
+                <&kp LEFT_GUI &mo 8>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_GUI &mo 12>;
+                <&kp LEFT_GUI &mo 8>;
 
             label = "WIN_LAYER";
         };
@@ -601,10 +601,10 @@
                 <&macro_tap>,
                 <&to 0>,
                 <&macro_press>,
-                <&kp LEFT_ALT &mo 13>,
+                <&kp LEFT_ALT &mo 9>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_ALT &mo 13>;
+                <&kp LEFT_ALT &mo 9>;
 
             label = "ALT_LAYER";
         };
@@ -1245,8 +1245,8 @@
             bindings = <
 &kp GRAVE       &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                                                                &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
 &kp TAB         &holdCtrlA 0 A       &holdCtrlS 0 S       &holdCtrlD 0 D       &holdCtrlF 0 F       &kp G                                                                                                        &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &holdCtrlB 0 B           &altAndlayer  &winAndlayer  &functionLayerTap 6 BACKSLASH  &symbolLayertap 7 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
-                                                                                                    &cursorLayerTap 3 MINUS  &lt 2 SPACE   &kp LCTRL     &kp RCTRL                      &kp SPACE                &lt 9 EQUAL
+&kp LEFT_SHIFT  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &holdCtrlB 0 B           &altAndlayer  &winAndlayer  &functionLayerTap 4 BACKSLASH  &symbolLayertap 5 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
+                                                                                                    &cursorLayerTap 3 MINUS  &lt 2 SPACE   &kp LCTRL     &kp RCTRL                      &kp SPACE                &lt 6 EQUAL
             >;
         };
 
@@ -1287,28 +1287,6 @@
                 <&inc_dec_kp RIGHT LEFT>;
         };
 
-        onekeyboardControl {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans  &trans  &trans          &mmv MOVE_UP    &msc SCRL_RIGHT
-&trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans  &trans  &msc SCRL_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RCTRL  &mkp LCLK  &trans  &trans  &trans  &mmv MOVE_LEFT  &msc SCRL_DOWN  &msc SCRL_UP
-                                        &trans  &trans  &trans  &trans     &mkp RCLK  &trans
-            >;
-
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
-        };
-
-        general_gaming_layer {
-            bindings = <
-&trans  &kp TAB    &kp Q  &kp W  &kp E  &kp R                                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LSHFT  &kp A  &kp S  &kp D  &kp F                                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &kp Z  &kp X  &kp C  &kp V   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans  &kp SPACE  &trans  &trans  &trans  &trans
-            >;
-
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
-        };
-
         function_layer {
             bindings = <
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp F5                                          &trans  &trans  &trans  &trans  &trans  &trans
@@ -1327,15 +1305,6 @@
             >;
         };
 
-        blank_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
         setting_layer {
             bindings = <
 &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN                                  &kp HOME  &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans      &trans
@@ -1343,17 +1312,6 @@
 &trans  &kp C_MUTE         &trans           &trans                &trans                &trans           &trans  &trans  &trans  &trans  &trans    &kp SPACE       &trans          &trans           &trans      &trans
                                                                                         &trans           &trans  &trans  &trans  &trans  &trans
             >;
-        };
-
-        gaming1st_person {
-            bindings = <
-&trans  &kp TAB    &kp Q  &kp W  &kp E  &kp R                                         &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
-&trans  &kp LSHFT  &kp A  &kp S  &kp D  &kp F                                         &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
-&trans  &trans     &kp Z  &kp X  &kp C  &kp V   &trans     &trans  &trans  &trans     &trans  &trans          &trans          &trans           &trans     &trans
-                                        &trans  &kp SPACE  &trans  &trans  &mkp LCLK  &trans
-            >;
-
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
         };
 
         kbMouse {
@@ -1396,11 +1354,53 @@
 
         CursorLayer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &tog 15
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &tog 11
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &kp UP    &kp RIGHT
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &tog 15
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &tog 11
                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
+        };
+
+        onekeyboardControl {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans  &trans  &trans          &mmv MOVE_UP    &msc SCRL_RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans  &trans  &msc SCRL_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RCTRL  &mkp LCLK  &trans  &trans  &trans  &mmv MOVE_LEFT  &msc SCRL_DOWN  &msc SCRL_UP
+                                        &trans  &trans  &trans  &trans     &mkp RCLK  &trans
+            >;
+
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
+        };
+
+        general_gaming_layer {
+            bindings = <
+&trans  &kp TAB    &kp Q  &kp W  &kp E  &kp R                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LSHFT  &kp A  &kp S  &kp D  &kp F                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp Z  &kp X  &kp C  &kp V   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans  &kp SPACE  &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
+        };
+
+        blank_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        gaming1st_person {
+            bindings = <
+&trans  &kp TAB    &kp Q  &kp W  &kp E  &kp R                                         &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
+&trans  &kp LSHFT  &kp A  &kp S  &kp D  &kp F                                         &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
+&trans  &trans     &kp Z  &kp X  &kp C  &kp V   &trans     &trans  &trans  &trans     &trans  &trans          &trans          &trans           &trans     &trans
+                                        &trans  &kp SPACE  &trans  &trans  &mkp LCLK  &trans
+            >;
+
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
         };
     };
 };
