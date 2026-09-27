@@ -1205,6 +1205,7 @@
                 <&kp LCTRL &msc SCRL_UP>;
 
             label = "ZOOMIN";
+            wait-ms = <50>;
         };
 
         zoomOut: zoomOut {
@@ -1218,6 +1219,7 @@
                 <&kp LCTRL &msc SCRL_DOWN>;
 
             label = "ZOOMOUT";
+            wait-ms = <50>;
         };
 
         ctrlB: ctrlB {
