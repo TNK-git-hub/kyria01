@@ -400,9 +400,9 @@
         };
 
         firstP_gaming {
-            bindings = <&tog 15>;
+            bindings = <&tog 14>;
             key-positions = <12 24>;
-            layers = <0 1 5 15>;
+            layers = <0 1 5 14>;
         };
 
         togKbMouse {
@@ -454,7 +454,7 @@
         };
 
         bluetoothSetting {
-            bindings = <&mo 15>;
+            bindings = <&mo 14>;
             key-positions = <12 24>;
         };
     };
@@ -1390,15 +1390,6 @@
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
         };
 
-        blank_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
         gaming1st_person {
             bindings = <
 &trans  &kp TAB    &kp Q  &kp W  &kp E  &kp R                                         &trans  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
@@ -1416,6 +1407,16 @@
 &trans  &trans        &trans        &trans        &trans        &trans                                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                                 &trans        &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        MACLayer {
+            display-name = "Default Layer";
+            bindings = <
+&kp GRAVE       &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                                                                &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
+&kp TAB         &holdCtrlA 0 A       &holdCtrlS 0 S       &holdCtrlD 0 D       &holdCtrlF 0 F       &kp G                                                                                                        &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &holdCtrlB 0 B           &altAndlayer  &winAndlayer  &functionLayerTap 4 BACKSLASH  &symbolLayertap 5 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
+                                                                                                    &cursorLayerTap 3 MINUS  &lt 2 SPACE   &kp LCTRL     &kp RCTRL                      &kp SPACE                &lt 6 EQUAL
             >;
         };
     };
