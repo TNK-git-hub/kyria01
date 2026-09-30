@@ -454,7 +454,7 @@
         };
 
         bluetoothSetting {
-            bindings = <&mo 14>;
+            bindings = <&mo 15>;
             key-positions = <12 24>;
         };
     };
