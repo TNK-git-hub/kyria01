@@ -31,8 +31,8 @@ layers:
   - {t: C, h: '&ctrlC'}
   - {t: V, h: '&ctrlV'}
   - {t: B, h: '&ctrlB'}
-  - '&altAndlayer'
-  - '&winAndlayer'
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - {t: \, h: function, s: '|'}
   - {t: '$$mdi:keyboard-return$$', h: symbol}
   - N
@@ -43,8 +43,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '-', h: cursor_layer, s: _}
   - {t: '$$mdi:keyboard-space$$', h: mouse_control}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: '=', h: setting, s: +}
   number_row:
