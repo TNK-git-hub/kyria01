@@ -14,9 +14,9 @@ layers:
   - {t: P, h: '0'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - {t: A, h: '&ctrlA'}
-  - {t: S, h: '&ctrlS'}
-  - {t: D, h: '&ctrlD'}
+  - {t: A, h: '&MACCommandA'}
+  - {t: S, h: '&MACCommandS'}
+  - {t: D, h: '&MACCommandD'}
   - {t: F, h: '&ctrlF'}
   - G
   - H
@@ -26,9 +26,9 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: '&ctrlZ'}
-  - {t: X, h: '&ctrlX'}
-  - {t: C, h: '&ctrlC'}
+  - {t: Z, h: '&MACCommandZ'}
+  - {t: X, h: '&MACCommandX'}
+  - {t: C, h: '&MACCommandC'}
   - {t: V, h: '&ctrlV'}
   - {t: B, h: '&ctrlB'}
   - $$mdi:apple-keyboard-option$$
