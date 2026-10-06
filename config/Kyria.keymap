@@ -517,6 +517,17 @@
             bindings = <&mo 15>;
             key-positions = <12 24>;
         };
+
+        toggleMacLayerComb {
+            bindings = <&tog 16>;
+            key-positions = <29 40>;
+        };
+
+        MACComboType {
+            bindings = <&MACMacroType>;
+            key-positions = <40 28>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -1441,6 +1452,34 @@
                 <&kp LEFT_COMMAND>;
 
             label = "MACCOMMANDB";
+        };
+
+        MACMacroType: MACMacroType {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp M &kp A &kp C>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "MACMACROTYPE";
+        };
+
+        WINMacroType: WINMacroType {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp W &kp I &kp N>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "WINMACROTYPE";
         };
     };
 
