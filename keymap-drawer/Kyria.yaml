@@ -815,3 +815,8 @@ combos:
   l: [Default Layer, number_row]
 - p: [12, 24]
   k: bluetoothSettingLayer
+- p: [29, 40]
+  k: {t: Default Layer, h: toggle}
+- p: [40, 28]
+  k: '&MACMacroType'
+  l: [Default Layer]

@@ -692,6 +692,18 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="265" y="199" width="28" height="26" class="combo"/>
+<text x="279" y="212" class="combo tap"><tspan style="font-size: 60%">&amp;MACMacro…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 412)" class="layer-number_row">
@@ -1044,6 +1056,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 825)" class="layer-mouse_control">
@@ -1318,6 +1338,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1237)" class="layer-cursor_layer">
@@ -1584,6 +1612,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1649)" class="layer-function">
@@ -1841,6 +1877,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2062)" class="layer-symbol">
@@ -2124,6 +2168,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2474)" class="layer-setting">
@@ -2384,6 +2436,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2886)" class="layer-kbMouse">
@@ -2647,6 +2707,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 3299)" class="layer-window_navi">
@@ -2918,6 +2986,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 3711)" class="layer-alt_navi">
@@ -3183,6 +3259,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 4123)" class="layer-OxygenNotIncludedLayer">
@@ -3440,6 +3524,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 4536)" class="layer-CursorLayer">
@@ -3701,6 +3793,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 4948)" class="layer-onekeyboardControl">
@@ -3962,6 +4062,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 5360)" class="layer-general_gaming">
@@ -4219,6 +4327,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 5773)" class="layer-gaming1st_person">
@@ -4486,6 +4602,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 6185)" class="layer-bluetoothSettingLayer">
@@ -4746,6 +4870,14 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="295" y="202" width="28" height="26" class="combo"/>
+<a href="#Default-Layer">
+<text x="309" y="215" class="combo tap layer-activator">
+<tspan x="309" dy="-0.6em" style="font-size: 86%">Default</tspan><tspan x="309" dy="1.2em" style="font-size: 86%">Layer</tspan>
+</text>
+</a><text x="309" y="226" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 </svg>
