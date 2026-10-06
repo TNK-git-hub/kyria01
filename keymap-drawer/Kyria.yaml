@@ -14,11 +14,58 @@ layers:
   - {t: P, h: '0'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
+  - {t: A, h: '&ctrlA'}
+  - {t: S, h: '&ctrlS'}
+  - {t: D, h: '&ctrlD'}
+  - {t: F, h: '&ctrlF'}
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: Z, h: '&ctrlZ'}
+  - {t: X, h: '&ctrlX'}
+  - {t: C, h: '&ctrlC'}
+  - {t: V, h: '&ctrlV'}
+  - {t: B, h: '&ctrlB'}
+  - '&altAndlayer'
+  - '&winAndlayer'
+  - {t: \, h: function, s: '|'}
+  - {t: '$$mdi:keyboard-return$$', h: symbol}
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '-', h: cursor_layer, s: _}
+  - {t: '$$mdi:keyboard-space$$', h: mouse_control}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
+  - {t: '=', h: setting, s: +}
+  MacLayer:
+  - {t: '`', s: '~'}
+  - {t: Q, h: '1'}
+  - {t: W, h: '2'}
+  - {t: E, h: '3'}
+  - {t: R, h: '4'}
+  - {t: T, h: '5'}
+  - {t: Y, h: '6'}
+  - {t: U, h: '7'}
+  - {t: I, h: '8'}
+  - {t: O, h: '9'}
+  - {t: P, h: '0'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - {t: A, h: '&MACCommandA'}
   - {t: S, h: '&MACCommandS'}
   - {t: D, h: '&MACCommandD'}
-  - {t: F, h: '&ctrlF'}
-  - G
+  - {t: F, h: '&MACCommandF'}
+  - {t: G, h: '&MACCommandG'}
   - H
   - J
   - K
@@ -29,8 +76,8 @@ layers:
   - {t: Z, h: '&MACCommandZ'}
   - {t: X, h: '&MACCommandX'}
   - {t: C, h: '&MACCommandC'}
-  - {t: V, h: '&ctrlV'}
-  - {t: B, h: '&ctrlB'}
+  - {t: V, h: '&MACCommandV'}
+  - {t: B, h: '&MACCommandB'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - {t: \, h: function, s: '|'}
@@ -816,7 +863,10 @@ combos:
 - p: [12, 24]
   k: bluetoothSettingLayer
 - p: [29, 40]
-  k: {t: Default Layer, h: toggle}
+  k: {t: MacLayer, h: toggle}
 - p: [40, 28]
   k: '&MACMacroType'
+  l: [MacLayer]
+- p: [40, 28]
+  k: '&WINMacroType'
   l: [Default Layer]
