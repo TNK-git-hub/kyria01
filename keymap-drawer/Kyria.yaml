@@ -141,6 +141,53 @@ layers:
   - '&numToCtrlR'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  MACNumberRow:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '1'
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - '&MACnuToEsc'
+  - '&MACnuToTab'
+  - '&MACnuToA'
+  - '&MACnuToS'
+  - '&MACnuToD'
+  - '&MACnuToF'
+  - '&MACnuToG'
+  - '&MACnuToH'
+  - '&MACnuToJ'
+  - '&MACnuToK'
+  - '&MACnuToK'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&MACnuToZ'
+  - '&MACnuToX'
+  - '&MACnuToC'
+  - '&MACnuToV'
+  - '&MACnuToB'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&MACnuToEnter'
+  - '&MACnuToN'
+  - '&MACnuToM'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&numToCtrlL'
+  - '&numToCtrlR'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   mouse_control:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
