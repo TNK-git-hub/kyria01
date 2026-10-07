@@ -1733,21 +1733,6 @@
             label = "MACNUTOC";
         };
 
-        MACnuToG: MACnuToG {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&to 1>,
-                <&macro_press>,
-                <&kp G>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp G>;
-
-            label = "MACNUTOG";
-        };
-
         MACnuToB: MACnuToB {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -1793,21 +1778,6 @@
             label = "MACNUTOCTRLL";
         };
 
-        MACnuToCtrlR: MACnuToCtrlR {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&to 1>,
-                <&macro_press>,
-                <&kp RCTRL>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp RCTRL>;
-
-            label = "MACNUTOCTRLR";
-        };
-
         MACnuToEnter: MACnuToEnter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -1821,6 +1791,36 @@
                 <&kp ENTER>;
 
             label = "MACNUTOENTER";
+        };
+
+        MACnutoF: MACnutoF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 1>,
+                <&macro_press>,
+                <&kp F>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp F>;
+
+            label = "MACNUTOF";
+        };
+
+        MACnuTab: MACnuTab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 1>,
+                <&macro_press>,
+                <&kp TAB>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp TAB>;
+
+            label = "MACNUTAB";
         };
 
         MACnutoF: MACnutoF {
