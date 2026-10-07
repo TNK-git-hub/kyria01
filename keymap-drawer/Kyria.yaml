@@ -154,11 +154,11 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '&MACnuToEsc'
-  - '&MACnuToTab'
+  - '&MACnuTab'
   - '&MACnuToA'
   - '&MACnuToS'
   - '&MACnuToD'
-  - '&MACnuToF'
+  - '&MACnutoF'
   - '&MACnuToG'
   - '&MACnuToH'
   - '&MACnuToJ'
