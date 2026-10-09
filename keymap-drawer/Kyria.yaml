@@ -159,7 +159,7 @@ layers:
   - '&MACnuToS'
   - '&MACnuToD'
   - '&MACnutoF'
-  - '&MACnuToG'
+  - '&MACnumToG'
   - '&MACnuToH'
   - '&MACnuToJ'
   - '&MACnuToK'
@@ -614,9 +614,9 @@ layers:
   window_navi:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
