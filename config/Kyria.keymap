@@ -1822,6 +1822,21 @@
 
             label = "MACNUMTOG";
         };
+
+        MACnumToX: MACnumToX {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 1>,
+                <&macro_press>,
+                <&kp X>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp X>;
+
+            label = "MACNUMTOX";
+        };
     };
 
     keymap {
@@ -1860,10 +1875,10 @@
 
         MACNumberRow {
             bindings = <
-&trans     &kp NUMBER_1  &kp N2     &kp N3     &kp N4     &kp N5                                                       &kp N6     &kp N7     &kp N8     &kp N9     &kp N0  &MACnuToEsc
-&MACnuTab  &MACnuToA     &MACnuToS  &MACnuToD  &MACnutoF  &MACnumToG                                                   &MACnuToH  &MACnuToJ  &MACnuToK  &MACnuToK  &trans  &trans
-&trans     &MACnuToZ     &trans     &MACnuToC  &MACnuToV  &MACnuToB   &trans  &trans       &trans       &MACnuToEnter  &MACnuToN  &MACnuToM  &trans     &trans     &trans  &trans
-                                                          &trans      &trans  &numToCtrlL  &numToCtrlR  &trans         &trans
+&trans     &kp NUMBER_1  &kp N2      &kp N3     &kp N4     &kp N5                                                       &kp N6     &kp N7     &kp N8     &kp N9     &kp N0  &MACnuToEsc
+&MACnuTab  &MACnuToA     &MACnuToS   &MACnuToD  &MACnutoF  &MACnumToG                                                   &MACnuToH  &MACnuToJ  &MACnuToK  &MACnuToK  &trans  &trans
+&trans     &MACnuToZ     &MACnumToX  &MACnuToC  &MACnuToV  &MACnuToB   &trans  &trans       &trans       &MACnuToEnter  &MACnuToN  &MACnuToM  &trans     &trans     &trans  &trans
+                                                           &trans      &trans  &numToCtrlL  &numToCtrlR  &trans         &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
