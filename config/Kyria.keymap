@@ -1688,21 +1688,6 @@
             label = "MACNUTOS";
         };
 
-        MACnuToX: MACnuToF {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&to 1>,
-                <&macro_press>,
-                <&kp X>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp X>;
-
-            label = "MACNUTOF";
-        };
-
         MACnuToD: MACnuToD {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
