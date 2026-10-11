@@ -1096,7 +1096,7 @@ combos:
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
 - p: [16, 19]
   k: {t: number_row, h: toggle}
-  l: [Default Layer, number_row, MacLayer, MACNumberRow]
+  l: [Default Layer, number_row]
 - p: [16, 41]
   k: {t: mouse_control, h: toggle}
   l: [Default Layer, mouse_control, MacLayer, MACMouseCotrol]
@@ -1137,9 +1137,16 @@ combos:
   k: bluetoothSettingLayer
 - p: [29, 40]
   k: {t: MacLayer, h: toggle}
+  l: [Default Layer, number_row]
 - p: [40, 28]
   k: '&MACMacroType'
   l: [MacLayer]
 - p: [40, 28]
   k: '&WINMacroType'
   l: [Default Layer]
+- p: [29, 40]
+  k: {t: Default Layer, h: toggle}
+  l: [MacLayer, MACNumberRow]
+- p: [16, 19]
+  k: {t: MACNumberRow, h: toggle}
+  l: [MacLayer, MACNumberRow]
