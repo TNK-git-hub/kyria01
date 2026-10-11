@@ -111,7 +111,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CURSORANDMOUSE ";
             #binding-cells = <0>;
-            bindings = <&lt 18 SPACE>, <&lt 2 SPACE>;
+            bindings = <&lt 19 SPACE>, <&lt 2 SPACE>;
 
             tapping-term-ms = <400>;
         };
@@ -432,7 +432,7 @@
         };
 
         one-keyboard-control {
-            bindings = <&to 18>;
+            bindings = <&to 19>;
             key-positions = <12 0>;
         };
 
@@ -477,14 +477,14 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <15 16>;
             timeout-ms = <200>;
-            layers = <0 9 2 14 13 10 1 3>;
+            layers = <0 9 2 15 13 10 1 3>;
         };
 
         combo_right_shift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <19 20>;
             timeout-ms = <200>;
-            layers = <0 9 2 14 13 1 3>;
+            layers = <0 9 2 15 13 1 3>;
         };
 
         capslook {
@@ -500,9 +500,9 @@
         };
 
         firstP_gaming {
-            bindings = <&tog 19>;
+            bindings = <&tog 20>;
             key-positions = <12 24>;
-            layers = <0 2 9 19>;
+            layers = <0 2 9 20>;
         };
 
         togKbMouse {
@@ -536,7 +536,7 @@
         };
 
         bluetoothSetting {
-            bindings = <&mo 20>;
+            bindings = <&mo 21>;
             key-positions = <12 24>;
         };
 
@@ -706,10 +706,10 @@
                 <&macro_tap>,
                 <&to 0>,
                 <&macro_press>,
-                <&kp LEFT_ALT &mo 14>,
+                <&kp LEFT_ALT &mo 15>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_ALT &mo 14>;
+                <&kp LEFT_ALT &mo 15>;
 
             label = "ALT_LAYER";
             wait-ms = <1>;
@@ -1837,6 +1837,22 @@
 
             label = "MACNUMTOX";
         };
+
+        CommandAndLayer: CommandAndLayer {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 1>,
+                <&macro_press>,
+                <&kp LEFT_GUI &mo 1>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_GUI &mo 1>;
+
+            label = "COMMANDANDLAYER";
+            wait-ms = <1>;
+        };
     };
 
     keymap {
@@ -1983,9 +1999,18 @@
 
         window_navi {
             bindings = <
-&trans  &trans  &none   &kp TAB  &kp TAB  &trans                                  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans  &kp TAB  &kp TAB  &trans                                  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
 &trans  &trans  &trans  &trans   &trans   &winB                                   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans
+                                          &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Command_navi {
+            bindings = <
+&trans  &trans  &trans  &kp TAB  &kp TAB  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans   &trans   &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                           &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
@@ -2012,9 +2037,9 @@
 
         CursorLayer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &tog 16
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &tog 17
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &kp UP    &kp RIGHT
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &tog 16
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &tog 17
                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
