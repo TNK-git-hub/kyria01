@@ -1002,31 +1002,31 @@ combos:
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
 - p: [16, 19]
   k: {t: number_row, h: toggle}
-  l: [Default Layer, number_row, MacLayer]
+  l: [Default Layer, number_row, MacLayer, MACNumberRow]
 - p: [16, 41]
   k: {t: mouse_control, h: toggle}
-  l: [Default Layer, mouse_control, MacLayer]
+  l: [Default Layer, mouse_control, MacLayer, MACMouseCotrol]
 - p: [41, 15]
   k: '&numToEsc'
-  l: [Default Layer, number_row, mouse_control, MacLayer]
+  l: [Default Layer, number_row, mouse_control, MacLayer, MACNumberRow, MACMouseCotrol]
 - p: [15, 16]
   k: $$mdi:apple-keyboard-shift$$
-  l: [Default Layer, symbol, number_row, alt_navi, window_navi, setting, MacLayer]
+  l: [Default Layer, symbol, number_row, alt_navi, window_navi, setting, MacLayer, MACNumberRow]
 - p: [19, 20]
   k: $$mdi:apple-keyboard-shift$$
-  l: [Default Layer, symbol, number_row, alt_navi, window_navi, MacLayer]
+  l: [Default Layer, symbol, number_row, alt_navi, window_navi, MacLayer, MACNumberRow]
 - p: [15, 20]
   k: $$mdi:apple-keyboard-caps$$
-  l: [Default Layer, number_row, MacLayer]
+  l: [Default Layer, number_row, MacLayer, MACNumberRow]
 - p: [21, 22]
   k: '&delete_word'
-  l: [cursor_layer]
+  l: [cursor_layer, MacCursorlayer]
 - p: [12, 24]
   k: {t: gaming1st_person, h: toggle}
   l: [Default Layer, number_row, symbol, gaming1st_person]
 - p: [42, 31]
   k: {t: kbMouse, h: toggle}
-  l: [Default Layer, number_row, kbMouse, MacLayer]
+  l: [Default Layer, number_row, kbMouse, MacLayer, MACNumberRow]
 - p: [30, 3]
   k: '&alt_tab'
   l: [Default Layer, number_row, cursor_layer]
@@ -1036,7 +1036,7 @@ combos:
 - p: [31, 29]
   k: '&winB'
   l: [Default Layer, number_row]
-- p: [31, 3]
+- p: [31, 4]
   k: '&winTabCom'
   l: [Default Layer, window_navi, MacLayer]
 - p: [12, 24]
