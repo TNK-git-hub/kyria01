@@ -1858,10 +1858,10 @@
                 <&macro_tap>,
                 <&to 1>,
                 <&macro_press>,
-                <&kp LEFT_GUI &mo 1>,
+                <&kp LEFT_GUI &mo 14>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_GUI &mo 1>;
+                <&kp LEFT_GUI &mo 14>;
 
             label = "COMMANDANDLAYER";
             wait-ms = <1>;
@@ -1932,7 +1932,7 @@
             bindings = <
 &kp GRAVE       &num_row NUMBER_1 Q   &num_row NUMBER_2 W   &num_row NUMBER_3 E   &num_row NUMBER_4 R   &num_row N5 T                                                                                                     &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
 &kp TAB         &MACHoldCommandA 0 A  &MACHoldCommandS 0 S  &MACHoldCommandD 0 D  &MACHoldCommandF 0 F  &MACHoldCommandG 0 G                                                                                              &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &MACHoldCommandZ 0 Z  &MACHoldCommandX 0 X  &MACHoldCommandC 0 C  &MACHoldCommandV 0 V  &MACHoldCommandB 0 B     &kp LEFT_ALT  &kp LEFT_GUI       &functionLayerTap 8 BACKSLASH  &symbolLayertap 9 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &MACHoldCommandZ 0 Z  &MACHoldCommandX 0 X  &MACHoldCommandC 0 C  &MACHoldCommandV 0 V  &MACHoldCommandB 0 B     &kp LEFT_ALT  &CommandAndLayer   &functionLayerTap 8 BACKSLASH  &symbolLayertap 9 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
                                                                                                         &cursorLayerTap 7 MINUS  &lt 4 SPACE   &MACCtrlAndLayerL  &kp RCTRL                      &kp SPACE                &lt 10 EQUAL
             >;
         };
