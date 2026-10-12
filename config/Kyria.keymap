@@ -469,7 +469,7 @@
             bindings = <&numToEsc>;
             key-positions = <41 15>;
             timeout-ms = <400>;
-            layers = <0 2 4 1 3 5>;
+            layers = <0 2 4>;
             slow-release;
         };
 
@@ -568,6 +568,14 @@
             bindings = <&tog 3>;
             key-positions = <16 19>;
             layers = <1 3>;
+        };
+
+        MACEsc {
+            bindings = <&MACNumToEsc>;
+            key-positions = <41 15>;
+            timeout-ms = <400>;
+            slow-release;
+            layers = <1 3 5>;
         };
     };
 
@@ -1911,6 +1919,21 @@
                 <&kp RCTRL>;
 
             label = "MACNUMTOCTRLR";
+        };
+
+        MACNumToEsc: MACNumToEsc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&to 1>,
+                <&macro_press>,
+                <&kp ESCAPE>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp ESCAPE>;
+
+            label = "MACNUMTOESC";
         };
     };
 
