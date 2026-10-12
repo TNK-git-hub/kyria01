@@ -184,8 +184,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&numToCtrlL'
-  - '&numToCtrlR'
+  - '&MACNumToCtrlL'
+  - '&MACNumToCtrlR'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   mouse_control:
