@@ -79,7 +79,7 @@ layers:
   - {t: V, h: '&MACCommandV'}
   - {t: B, h: '&MACCommandB'}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - '&CommandAndLayer'
   - {t: \, h: function, s: '|'}
   - {t: '$$mdi:keyboard-return$$', h: symbol}
   - N
