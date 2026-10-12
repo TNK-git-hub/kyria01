@@ -1102,7 +1102,7 @@ combos:
   l: [Default Layer, mouse_control, MacLayer, MACMouseCotrol]
 - p: [41, 15]
   k: '&numToEsc'
-  l: [Default Layer, number_row, mouse_control, MacLayer, MACNumberRow, MACMouseCotrol]
+  l: [Default Layer, number_row, mouse_control]
 - p: [15, 16]
   k: $$mdi:apple-keyboard-shift$$
   l: [Default Layer, symbol, number_row, alt_navi, window_navi, setting, MacLayer, MACNumberRow]
@@ -1150,3 +1150,6 @@ combos:
 - p: [16, 19]
   k: {t: MACNumberRow, h: toggle}
   l: [MacLayer, MACNumberRow]
+- p: [41, 15]
+  k: '&MACNumToEsc'
+  l: [MacLayer, MACNumberRow, MACMouseCotrol]
