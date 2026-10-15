@@ -1935,6 +1935,13 @@
 
             label = "MACNUMTOESC";
         };
+
+        TabThenTogArrow: TabThenTogArrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "TABTHENTOGARROW";
+        };
     };
 
     keymap {
