@@ -1943,6 +1943,34 @@
 
             label = "TABTHENTOGARROW";
         };
+
+        MACCropScreen: MACCropScreen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_GUI &kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp NUMBER_4>,
+                <&macro_release>,
+                <&kp LCTRL &kp LEFT_GUI &kp LEFT_SHIFT>;
+
+            label = "MACCROPSCREEN";
+        };
+
+        MACPictureFullScreen: MACPictureFullScreen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_GUI &kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp NUMBER_3>,
+                <&macro_release>,
+                <&kp LCTRL &kp LEFT_GUI &kp LEFT_SHIFT>;
+
+            label = "MACPICTUREFULLSCREEN";
+        };
     };
 
     keymap {
@@ -2006,7 +2034,7 @@
             display-name = "MACMouseCotrol";
             bindings = <
 &trans  &trans  &trans  &trans        &kp BACKSPACE  &trans                                     &MACZoomIn   &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans     &trans
-&trans  &trans  &trans  &kp LEFT_ALT  &kp ENTER      &trans                                     &MACZoomOut  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
+&trans  &trans  &trans  &kp LEFT_GUI  &kp ENTER      &trans                                     &MACZoomOut  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
 &trans  &trans  &trans  &trans        &trans         &trans  &trans  &trans  &trans  &trans     &trans       &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &trans     &trans
                                                      &trans  &trans  &trans  &trans  &mkp LCLK  &trans
             >;
@@ -2071,10 +2099,10 @@
 
         MACSettingLayer {
             bindings = <
-&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN                                  &kp HOME  &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans      &trans
-&trans  &trans             &trans           &kp LEFT_ALT          &kp LEFT_SHIFT        &trans                                           &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &shift_f10  &trans
-&trans  &kp C_MUTE         &trans           &trans                &trans                &trans           &trans  &trans  &trans  &trans  &trans    &kp SPACE       &trans          &trans           &trans      &trans
-                                                                                        &trans           &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &MACCropScreen                                         &kp HOME  &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans      &trans
+&trans  &trans             &trans           &kp LEFT_ALT          &kp LEFT_SHIFT        &MACPictureFullScreen                                  &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &shift_f10  &trans
+&trans  &kp C_MUTE         &trans           &trans                &trans                &trans                 &trans  &trans  &trans  &trans  &trans    &kp SPACE       &trans          &trans           &trans      &trans
+                                                                                        &trans                 &trans  &trans  &trans  &trans  &trans
             >;
         };
 
