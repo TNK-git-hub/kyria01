@@ -1939,7 +1939,8 @@
         TabThenTogArrow: TabThenTogArrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&macro_press>, <&kp TAB>, <&macro_tap>, <&tog 7>;
+
             label = "TABTHENTOGARROW";
         };
     };
