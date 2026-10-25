@@ -683,6 +683,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="265" y="199" width="28" height="26" class="combo"/>
 <text x="279" y="212" class="combo tap"><tspan style="font-size: 60%">&amp;WINMacro…</tspan></text>
 </g>
+<g class="combo enter combopos-19">
+<path d="M702,182 l63,-77" class="combo"/>
+<path d="M702,182 l-63,77" class="combo"/>
+<rect rx="6" ry="6" x="688" y="169" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="693" y="173" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 412)" class="layer-MacLayer">
@@ -1039,6 +1045,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="169" width="28" height="26" class="combo"/>
 <text x="280" y="182" class="combo tap"><tspan style="font-size: 60%">&amp;MACNumTo…</tspan></text>
 </g>
+<g class="combo enter combopos-14">
+<path d="M702,182 l63,-77" class="combo"/>
+<path d="M702,182 l-63,77" class="combo"/>
+<rect rx="6" ry="6" x="688" y="169" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="693" y="173" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 825)" class="layer-number_row">
@@ -1378,6 +1390,12 @@ rect.held, rect.combo.held {
 <text x="309" y="215" class="combo tap layer-activator"><tspan style="font-size: 75%">MacLayer</tspan></text>
 </a><text x="309" y="226" class="combo hold">toggle</text>
 </g>
+<g class="combo enter combopos-17">
+<path d="M702,182 l63,-77" class="combo"/>
+<path d="M702,182 l-63,77" class="combo"/>
+<rect rx="6" ry="6" x="688" y="169" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="693" y="173" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1237)" class="layer-MACNumberRow">
@@ -1686,6 +1704,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="169" width="28" height="26" class="combo"/>
 <text x="280" y="182" class="combo tap"><tspan style="font-size: 60%">&amp;MACNumTo…</tspan></text>
 </g>
+<g class="combo enter combopos-11">
+<path d="M702,182 l63,-77" class="combo"/>
+<path d="M702,182 l-63,77" class="combo"/>
+<rect rx="6" ry="6" x="688" y="169" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="693" y="173" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1649)" class="layer-mouse_control">
@@ -1960,6 +1984,12 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo enter combopos-6">
+<path d="M702,182 l63,-77" class="combo"/>
+<path d="M702,182 l-63,77" class="combo"/>
+<rect rx="6" ry="6" x="688" y="169" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="693" y="173" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2062)" class="layer-MACMouseCotrol">
@@ -2235,6 +2265,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="266" y="169" width="28" height="26" class="combo"/>
 <text x="280" y="182" class="combo tap"><tspan style="font-size: 60%">&amp;MACNumTo…</tspan></text>
 </g>
+<g class="combo enter combopos-6">
+<path d="M702,182 l63,-77" class="combo"/>
+<path d="M702,182 l-63,77" class="combo"/>
+<rect rx="6" ry="6" x="688" y="169" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="693" y="173" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2474)" class="layer-cursor_layer">
@@ -2501,6 +2537,12 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo enter combopos-6">
+<path d="M702,182 l63,-77" class="combo"/>
+<path d="M702,182 l-63,77" class="combo"/>
+<rect rx="6" ry="6" x="688" y="169" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="693" y="173" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2886)" class="layer-MacCursorlayer">
@@ -2761,6 +2803,12 @@ rect.held, rect.combo.held {
 <a href="#bluetoothSettingLayer">
 <text x="28" y="181" class="combo tap layer-activator"><tspan style="font-size: 60%">bluetooth…</tspan></text>
 </a></g>
+<g class="combo enter combopos-5">
+<path d="M702,182 l63,-77" class="combo"/>
+<path d="M702,182 l-63,77" class="combo"/>
+<rect rx="6" ry="6" x="688" y="169" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="693" y="173" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 3299)" class="layer-function">
