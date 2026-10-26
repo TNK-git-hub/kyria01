@@ -1955,11 +1955,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL &kp LEFT_GUI &kp LEFT_SHIFT>,
+                <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_GUI>,
                 <&macro_tap>,
                 <&kp NUMBER_4>,
                 <&macro_release>,
-                <&kp LCTRL &kp LEFT_GUI &kp LEFT_SHIFT>;
+                <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_GUI>;
 
             label = "MACCROPSCREEN";
         };
