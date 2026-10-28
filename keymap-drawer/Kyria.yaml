@@ -1156,3 +1156,12 @@ combos:
 - p: [20, 44]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Default Layer, number_row, mouse_control, cursor_layer, MacLayer, MACNumberRow, MACMouseCotrol, MacCursorlayer]
+- p: [16, 41]
+  k: {t: MACMouseCotrol, h: toggle}
+  l: [Default Layer, mouse_control, MacLayer, MACMouseCotrol]
+- p: [44, 19]
+  k: {t: mouse_control, h: toggle}
+  l: [Default Layer, mouse_control, MacLayer, MACMouseCotrol]
+- p: [44, 19]
+  k: {t: MACMouseCotrol, h: toggle}
+  l: [Default Layer, mouse_control, MacLayer, MACMouseCotrol]
