@@ -462,7 +462,7 @@
         toggle_mouse_L {
             bindings = <&tog 4>;
             key-positions = <16 41>;
-            layers = <0 4 1 5>;
+            layers = <0 4>;
         };
 
         esc {
@@ -587,19 +587,19 @@
         MACMouseControlL {
             bindings = <&tog 5>;
             key-positions = <16 41>;
-            layers = <0 4 1 5>;
+            layers = <1 5>;
         };
 
         toggle_mouse_control_r {
             bindings = <&tog 4>;
             key-positions = <44 19>;
-            layers = <0 4 1 5>;
+            layers = <0 4>;
         };
 
         MACMouseControlR {
             bindings = <&tog 5>;
             key-positions = <44 19>;
-            layers = <0 4 1 5>;
+            layers = <1 5>;
         };
     };
 
