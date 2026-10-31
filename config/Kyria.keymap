@@ -420,6 +420,19 @@
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
         };
+
+        ToggleOnOnly: ToggleOnOnly {
+            compatible = "zmk,behavior-toggle-layer";
+            label = "TOGGLEONONLY";
+            #binding-cells = <1>;
+        };
+
+        ToggleOffOnly: ToggleOffOnly {
+            compatible = "zmk,behavior-toggle-layer";
+            label = "TOGGLEOFFONLY";
+            #binding-cells = <1>;
+            toggle-mode = "off";
+        };
     };
 
     combos {
@@ -1994,6 +2007,13 @@
                 <&kp LCTRL &kp LEFT_GUI &kp LEFT_SHIFT>;
 
             label = "MACPICTUREFULLSCREEN";
+        };
+
+        TabToCursor: TabToCursor {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "TABTOCURSOR";
         };
     };
 
