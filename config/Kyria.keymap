@@ -2069,10 +2069,10 @@
         cursor_layer {
             display-name = "cursor_layer";
             bindings = <
-&trans  &trans  &trans     &trans     &trans          &trans                                         &kp HOME   &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans      &trans
-&trans  &trans  &kp ENTER  &kp LCTRL  &kp LEFT_SHIFT  &trans                                         &kp END    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &shift_f10  &trans
-&trans  &trans  &kp ENTER  &trans     &trans          &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans     &trans          &trans          &trans           &trans      &trans
-                                                      &trans  &trans  &trans  &trans      &kp SPACE  &kp ENTER
+&trans  &trans  &trans  &trans     &trans          &trans                                         &kp HOME   &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans      &trans
+&trans  &trans  &trans  &kp LCTRL  &kp LEFT_SHIFT  &trans                                         &kp END    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &shift_f10  &trans
+&trans  &trans  &trans  &kp ENTER  &kp BACKSPACE   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans     &trans          &trans          &trans           &trans      &trans
+                                                   &trans  &trans  &trans  &trans      &kp SPACE  &kp ENTER
             >;
 
             sensor-bindings =
@@ -2083,10 +2083,10 @@
         MacCursorlayer {
             display-name = "MacCursorlayer";
             bindings = <
-&trans  &trans  &trans     &trans        &trans          &trans                                         &kp HOME   &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans      &trans
-&trans  &trans  &kp ENTER  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans                                         &kp END    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &shift_f10  &trans
-&trans  &trans  &kp ENTER  &trans        &trans          &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans     &trans          &trans          &trans           &trans      &trans
-                                                         &trans  &trans  &trans  &trans      &kp SPACE  &kp ENTER
+&trans  &trans  &trans  &trans        &trans          &trans                                         &kp HOME   &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans      &trans
+&trans  &trans  &trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans                                         &kp END    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &shift_f10  &trans
+&trans  &trans  &trans  &kp ENTER     &kp BACKSPACE   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans     &trans          &trans          &trans           &trans      &trans
+                                                      &trans  &trans  &trans  &trans      &kp SPACE  &kp ENTER
             >;
 
             sensor-bindings =
