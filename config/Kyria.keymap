@@ -111,7 +111,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CURSORANDMOUSE ";
             #binding-cells = <0>;
-            bindings = <&lt 20 SPACE>, <&lt 2 SPACE>;
+            bindings = <&lt 21 SPACE>, <&lt 2 SPACE>;
 
             tapping-term-ms = <400>;
         };
@@ -445,7 +445,7 @@
         };
 
         one-keyboard-control {
-            bindings = <&to 20>;
+            bindings = <&to 21>;
             key-positions = <12 0>;
         };
 
@@ -513,9 +513,9 @@
         };
 
         firstP_gaming {
-            bindings = <&tog 21>;
+            bindings = <&tog 22>;
             key-positions = <12 24>;
-            layers = <0 2 9 21>;
+            layers = <0 2 9 22>;
         };
 
         togKbMouse {
@@ -549,7 +549,7 @@
         };
 
         bluetoothSetting {
-            bindings = <&mo 22>;
+            bindings = <&mo 23>;
             key-positions = <12 24>;
         };
 
@@ -1919,10 +1919,10 @@
                 <&macro_tap>,
                 <&to 1>,
                 <&macro_press>,
-                <&kp LCTRL &mo 16>,
+                <&kp LCTRL &mo 17>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LCTRL &mo 16>;
+                <&kp LCTRL &mo 17>;
 
             label = "MACCTRLANDLAYERL";
             wait-ms = <1>;
@@ -2009,11 +2009,32 @@
             label = "MACPICTUREFULLSCREEN";
         };
 
-        TabToCursor: TabToCursor {
+        MACCmdTab: MACWinTab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
-            label = "TABTOCURSOR";
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI>,
+                <&macro_tap>,
+                <&kp TAB>,
+                <&macro_release>,
+                <&kp LEFT_GUI>;
+
+            label = "MACWINTAB";
+        };
+
+        MACCmdQ: MACCmdQ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI>,
+                <&macro_tap>,
+                <&kp Q>,
+                <&macro_release>,
+                <&kp LEFT_GUI>;
+
+            label = "MACCMDQ";
         };
     };
 
@@ -2186,6 +2207,15 @@
             >;
         };
 
+        MACOptionNavi {
+            bindings = <
+&trans  &trans  &MACCmdTab  &MACCmdTab  &MACCmdQ  &trans                                  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans      &trans      &trans    &trans                                  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans
+                                                  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
         MACCtrlNavi {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
@@ -2208,9 +2238,9 @@
 
         CursorLayer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &tog 18
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &tog 19
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &kp UP    &kp RIGHT
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &tog 18
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &tog 19
                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
