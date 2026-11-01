@@ -1206,9 +1206,9 @@ combos:
 - p: [16, 41]
   k: {t: MACMouseCotrol, h: toggle}
   l: [MacLayer, MACMouseCotrol]
-- p: [44, 19]
+- p: [44, 45]
   k: {t: mouse_control, h: toggle}
   l: [Default Layer, mouse_control]
-- p: [44, 19]
+- p: [44, 45]
   k: {t: MACMouseCotrol, h: toggle}
   l: [MacLayer, MACMouseCotrol]
