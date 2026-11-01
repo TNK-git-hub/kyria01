@@ -111,7 +111,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CURSORANDMOUSE ";
             #binding-cells = <0>;
-            bindings = <&lt 21 SPACE>, <&lt 2 SPACE>;
+            bindings = <&lt 22 SPACE>, <&lt 2 SPACE>;
 
             tapping-term-ms = <400>;
         };
@@ -441,18 +441,18 @@
         ctrl-shift-combo {
             bindings = <&ctrlShiftCombo>;
             key-positions = <24 25>;
-            layers = <0 2 9>;
+            layers = <0 2 10>;
         };
 
         one-keyboard-control {
-            bindings = <&to 21>;
+            bindings = <&to 22>;
             key-positions = <12 0>;
         };
 
         back_comma {
             bindings = <&kp GRAVE>;
             key-positions = <1 2>;
-            layers = <2 9>;
+            layers = <2 10>;
         };
 
         bt_cl_all {
@@ -490,14 +490,14 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <15 16>;
             timeout-ms = <200>;
-            layers = <0 9 2 15 13 10 1 3>;
+            layers = <0 10 2 16 14 11 1 3>;
         };
 
         combo_right_shift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <19 20>;
             timeout-ms = <200>;
-            layers = <0 9 2 15 13 1 3>;
+            layers = <0 10 2 16 14 1 3>;
         };
 
         capslook {
@@ -513,15 +513,15 @@
         };
 
         firstP_gaming {
-            bindings = <&tog 22>;
+            bindings = <&tog 23>;
             key-positions = <12 24>;
-            layers = <0 2 9 22>;
+            layers = <0 2 10 23>;
         };
 
         togKbMouse {
-            bindings = <&tog 12>;
+            bindings = <&tog 13>;
             key-positions = <42 31>;
-            layers = <0 2 12 1 3>;
+            layers = <0 2 13 1 3>;
         };
 
         alt_tab_combo {
@@ -545,11 +545,11 @@
         winTabCombo {
             bindings = <&winTabCom>;
             key-positions = <31 4>;
-            layers = <0 13 1>;
+            layers = <0 14 1>;
         };
 
         bluetoothSetting {
-            bindings = <&mo 23>;
+            bindings = <&mo 24>;
             key-positions = <12 24>;
         };
 
@@ -748,10 +748,10 @@
                 <&macro_tap>,
                 <&to 0>,
                 <&macro_press>,
-                <&kp LEFT_GUI &mo 13>,
+                <&kp LEFT_GUI &mo 14>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_GUI &mo 13>;
+                <&kp LEFT_GUI &mo 14>;
 
             label = "WIN_LAYER";
             wait-ms = <1>;
@@ -764,10 +764,10 @@
                 <&macro_tap>,
                 <&to 0>,
                 <&macro_press>,
-                <&kp LEFT_ALT &mo 15>,
+                <&kp LEFT_ALT &mo 16>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_ALT &mo 15>;
+                <&kp LEFT_ALT &mo 16>;
 
             label = "ALT_LAYER";
             wait-ms = <1>;
@@ -1903,10 +1903,10 @@
                 <&macro_tap>,
                 <&to 1>,
                 <&macro_press>,
-                <&kp LEFT_GUI &mo 14>,
+                <&kp LEFT_GUI &mo 15>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_GUI &mo 14>;
+                <&kp LEFT_GUI &mo 15>;
 
             label = "COMMANDANDLAYER";
             wait-ms = <1>;
@@ -1919,10 +1919,10 @@
                 <&macro_tap>,
                 <&to 1>,
                 <&macro_press>,
-                <&kp LCTRL &mo 17>,
+                <&kp LCTRL &mo 18>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LCTRL &mo 17>;
+                <&kp LCTRL &mo 18>;
 
             label = "MACCTRLANDLAYERL";
             wait-ms = <1>;
@@ -2036,6 +2036,19 @@
 
             label = "MACCMDQ";
         };
+
+        TabToggleOnCursor: TabToggleOnCursor {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp TAB &ToggleOnOnly 8>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp TAB &ToggleOnOnly 8>;
+
+            label = "TABTOGGLEONCURSOR";
+        };
     };
 
     keymap {
@@ -2044,20 +2057,20 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp GRAVE       &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                                                                &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
-&kp TAB         &holdCtrlA 0 A       &holdCtrlS 0 S       &holdCtrlD 0 D       &holdCtrlF 0 F       &kp G                                                                                                        &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &holdCtrlB 0 B           &altAndlayer  &winAndlayer  &functionLayerTap 8 BACKSLASH  &symbolLayertap 9 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
-                                                                                                    &cursorLayerTap 6 MINUS  &lt 4 SPACE   &kp LCTRL     &kp RCTRL                      &kp SPACE                &lt 10 EQUAL
+&kp GRAVE       &num_row NUMBER_1 Q  &num_row NUMBER_2 W  &num_row NUMBER_3 E  &num_row NUMBER_4 R  &num_row N5 T                                                                                                 &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
+&kp TAB         &holdCtrlA 0 A       &holdCtrlS 0 S       &holdCtrlD 0 D       &holdCtrlF 0 F       &kp G                                                                                                         &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &holdCtrlZ 0 Z       &holdCtrlX 0 X       &holdCtrlC 0 C       &holdCtrlV 0 V       &holdCtrlB 0 B           &altAndlayer  &winAndlayer  &functionLayerTap 9 BACKSLASH  &symbolLayertap 10 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
+                                                                                                    &cursorLayerTap 6 MINUS  &lt 4 SPACE   &kp LCTRL     &kp RCTRL                      &kp SPACE                 &lt 11 EQUAL
             >;
         };
 
         MACLayer {
             display-name = "MacLayer";
             bindings = <
-&kp GRAVE       &num_row NUMBER_1 Q   &num_row NUMBER_2 W   &num_row NUMBER_3 E   &num_row NUMBER_4 R   &num_row N5 T                                                                                                     &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
-&kp TAB         &MACHoldCommandA 0 A  &MACHoldCommandS 0 S  &MACHoldCommandD 0 D  &MACHoldCommandF 0 F  &MACHoldCommandG 0 G                                                                                              &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &MACHoldCommandZ 0 Z  &MACHoldCommandX 0 X  &MACHoldCommandC 0 C  &MACHoldCommandV 0 V  &MACHoldCommandB 0 B     &kp LEFT_ALT  &CommandAndLayer   &functionLayerTap 8 BACKSLASH  &symbolLayertap 9 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
-                                                                                                        &cursorLayerTap 7 MINUS  &lt 4 SPACE   &MACCtrlAndLayerL  &kp RCTRL                      &kp SPACE                &lt 10 EQUAL
+&kp GRAVE       &num_row NUMBER_1 Q   &num_row NUMBER_2 W   &num_row NUMBER_3 E   &num_row NUMBER_4 R   &num_row N5 T                                                                                                      &num_row NUMBER_6 Y  &num_row N7 U  &num_row N8 I  &num_row N9 O  &num_row N0 P  &kp BSPC
+&kp TAB         &MACHoldCommandA 0 A  &MACHoldCommandS 0 S  &MACHoldCommandD 0 D  &MACHoldCommandF 0 F  &MACHoldCommandG 0 G                                                                                               &kp H                &kp J          &kp K          &kp L          &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &MACHoldCommandZ 0 Z  &MACHoldCommandX 0 X  &MACHoldCommandC 0 C  &MACHoldCommandV 0 V  &MACHoldCommandB 0 B     &kp LEFT_ALT  &CommandAndLayer   &functionLayerTap 9 BACKSLASH  &symbolLayertap 10 ENTER  &kp N                &kp M          &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
+                                                                                                        &cursorLayerTap 7 MINUS  &lt 4 SPACE   &MACCtrlAndLayerL  &kp RCTRL                      &kp SPACE                 &lt 11 EQUAL
             >;
         };
 
@@ -2128,6 +2141,20 @@
 &trans  &trans  &trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans                                         &kp END    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &shift_f10  &trans
 &trans  &trans  &trans  &kp ENTER     &kp BACKSPACE   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans     &trans          &trans          &trans           &trans      &trans
                                                       &trans  &trans  &trans  &trans      &kp SPACE  &kp ENTER
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp DOWN UP_ARROW>,
+                <&inc_dec_kp RIGHT LEFT>;
+        };
+
+        MACCmdTabCursor {
+            display-name = "MacCursorlayer";
+            bindings = <
+&trans  &trans  &trans  &trans        &trans          &trans                                         &kp HOME   &kp ENTER       &kp UP_ARROW    &kp BACKSPACE    &trans      &trans
+&trans  &trans  &trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans                                         &kp END    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &shift_f10  &trans
+&trans  &trans  &trans  &kp ENTER     &kp BACKSPACE   &trans  &trans  &trans  &kp DELETE  &kp ENTER  &trans     &trans          &trans          &trans           &trans      &trans
+                                                      &trans  &trans  &trans  &kp ESCAPE  &kp SPACE  &kp ENTER
             >;
 
             sensor-bindings =
@@ -2238,9 +2265,9 @@
 
         CursorLayer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &tog 19
+&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &trans    &tog 20
 &trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans    &kp UP    &kp RIGHT
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &tog 19
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &tog 20
                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
