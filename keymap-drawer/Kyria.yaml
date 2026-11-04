@@ -1134,9 +1134,6 @@ combos:
   l: [Default Layer, number_row, symbol]
 - p: [12, 0]
   k: {t: general_gaming, h: toggle}
-- p: [1, 2]
-  k: {t: '`', s: '~'}
-  l: [number_row, symbol]
 - p: [29, 30]
   k: BT CLR ALL
 - p: [43, 33]
@@ -1144,10 +1141,10 @@ combos:
 - p: [16, 19]
   k: {t: number_row, h: toggle}
   l: [Default Layer, number_row]
-- p: [16, 41]
+- p: [16, 15, 14]
   k: {t: mouse_control, h: toggle}
   l: [Default Layer, mouse_control]
-- p: [41, 15]
+- p: [1, 12]
   k: '&numToEsc'
   l: [Default Layer, number_row, mouse_control]
 - p: [15, 16]
@@ -1197,13 +1194,13 @@ combos:
 - p: [16, 19]
   k: {t: MACNumberRow, h: toggle}
   l: [MacLayer, MACNumberRow]
-- p: [41, 15]
+- p: [12, 1]
   k: '&MACNumToEsc'
   l: [MacLayer, MACNumberRow, MACMouseCotrol]
-- p: [20, 44]
+- p: [10, 23]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Default Layer, number_row, mouse_control, cursor_layer, MacLayer, MACNumberRow, MACMouseCotrol, MacCursorlayer]
-- p: [16, 41]
+- p: [16, 15, 14]
   k: {t: MACMouseCotrol, h: toggle}
   l: [MacLayer, MACMouseCotrol]
 - p: [44, 45]
