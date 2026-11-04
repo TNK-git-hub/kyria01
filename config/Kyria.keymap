@@ -468,7 +468,7 @@
 
         toggle_mouse_L {
             bindings = <&tog 4>;
-            key-positions = <16 15 14>;
+            key-positions = <2 3>;
             layers = <0 4>;
         };
 
@@ -593,7 +593,7 @@
 
         MACMouseControlL {
             bindings = <&tog 5>;
-            key-positions = <16 15 14>;
+            key-positions = <2 3>;
             layers = <1 5>;
         };
 
