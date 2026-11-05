@@ -1144,7 +1144,7 @@ combos:
 - p: [2, 3]
   k: {t: mouse_control, h: toggle}
   l: [Default Layer, mouse_control]
-- p: [1, 12]
+- p: [15, 41]
   k: '&numToEsc'
   l: [Default Layer, number_row, mouse_control]
 - p: [15, 16]
@@ -1194,10 +1194,10 @@ combos:
 - p: [16, 19]
   k: {t: MACNumberRow, h: toggle}
   l: [MacLayer, MACNumberRow]
-- p: [12, 1]
+- p: [15, 41]
   k: '&MACNumToEsc'
   l: [MacLayer, MACNumberRow, MACMouseCotrol]
-- p: [10, 23]
+- p: [20, 44]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Default Layer, number_row, mouse_control, cursor_layer, MacLayer, MACNumberRow, MACMouseCotrol, MacCursorlayer]
 - p: [2, 3]
