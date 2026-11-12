@@ -1141,7 +1141,7 @@ combos:
 - p: [16, 19]
   k: {t: number_row, h: toggle}
   l: [Default Layer, number_row]
-- p: [2, 3]
+- p: [40, 41]
   k: {t: mouse_control, h: toggle}
   l: [Default Layer, mouse_control]
 - p: [15, 41]
@@ -1156,9 +1156,6 @@ combos:
 - p: [15, 20]
   k: $$mdi:apple-keyboard-caps$$
   l: [Default Layer, number_row, MacLayer, MACNumberRow]
-- p: [21, 22]
-  k: '&delete_word'
-  l: [cursor_layer, MacCursorlayer]
 - p: [12, 24]
   k: {t: gaming1st_person, h: toggle}
   l: [Default Layer, number_row, symbol, gaming1st_person]
@@ -1200,7 +1197,7 @@ combos:
 - p: [20, 44]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Default Layer, number_row, mouse_control, cursor_layer, MacLayer, MACNumberRow, MACMouseCotrol, MacCursorlayer]
-- p: [2, 3]
+- p: [41, 40]
   k: {t: MACMouseCotrol, h: toggle}
   l: [MacLayer, MACMouseCotrol]
 - p: [44, 45]
