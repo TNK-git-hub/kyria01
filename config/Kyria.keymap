@@ -479,6 +479,7 @@
             timeout-ms = <400>;
             layers = <0 2 4>;
             slow-release;
+            require-prior-idle-ms = <150>;
         };
 
         combo_left_shift {
