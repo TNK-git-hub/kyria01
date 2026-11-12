@@ -584,6 +584,7 @@
             key-positions = <20 44>;
             layers = <0 2 4 6 1 3 5 7>;
             slow-release;
+            require-prior-idle-ms = <150>;
         };
 
         MACMouseControlL {
