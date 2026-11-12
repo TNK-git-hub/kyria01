@@ -464,6 +464,7 @@
             bindings = <&tog 2>;
             key-positions = <16 19>;
             layers = <0 2>;
+            require-prior-idle-ms = <150>;
         };
 
         toggle_mouse_L {
@@ -485,6 +486,7 @@
             key-positions = <15 16>;
             timeout-ms = <200>;
             layers = <0 10 2 16 14 11 1 3>;
+            require-prior-idle-ms = <150>;
         };
 
         combo_right_shift {
@@ -492,12 +494,14 @@
             key-positions = <19 20>;
             timeout-ms = <200>;
             layers = <0 10 2 16 14 1 3>;
+            require-prior-idle-ms = <150>;
         };
 
         capslook {
             bindings = <&kp CAPSLOCK>;
             key-positions = <15 20>;
             layers = <0 2 1 3>;
+            require-prior-idle-ms = <150>;
         };
 
         firstP_gaming {
