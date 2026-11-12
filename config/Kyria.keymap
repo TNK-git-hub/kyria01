@@ -468,7 +468,7 @@
 
         toggle_mouse_L {
             bindings = <&tog 4>;
-            key-positions = <2 3>;
+            key-positions = <40 41>;
             layers = <0 4>;
         };
 
@@ -498,12 +498,6 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <15 20>;
             layers = <0 2 1 3>;
-        };
-
-        delete_word_combo {
-            bindings = <&delete_word>;
-            key-positions = <21 22>;
-            layers = <6 7>;
         };
 
         firstP_gaming {
@@ -589,11 +583,12 @@
             bindings = <&kp ENTER>;
             key-positions = <20 44>;
             layers = <0 2 4 6 1 3 5 7>;
+            slow-release;
         };
 
         MACMouseControlL {
             bindings = <&tog 5>;
-            key-positions = <2 3>;
+            key-positions = <41 40>;
             layers = <1 5>;
         };
 
