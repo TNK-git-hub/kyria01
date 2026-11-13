@@ -2215,10 +2215,10 @@
 
         Command_navi {
             bindings = <
-&trans  &trans  &trans  &kp TAB  &kp TAB  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans   &trans   &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &TabToggleOnCursor  &TabToggleOnCursor  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans              &trans              &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans              &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                                &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
