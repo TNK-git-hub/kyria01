@@ -132,8 +132,9 @@
             bindings = <&ctrlZ>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
+            require-prior-idle-ms = <150>;
         };
 
         holdCtrlX: holdCtrlX {
@@ -142,8 +143,9 @@
             bindings = <&ctrlX>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
+            require-prior-idle-ms = <150>;
         };
 
         holdCtrlC: holdCtrlC {
@@ -152,8 +154,9 @@
             bindings = <&ctrlC>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
+            require-prior-idle-ms = <150>;
         };
 
         holdCtrlA: holdCtrlA {
@@ -243,8 +246,9 @@
             bindings = <&ctrlV>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
+            require-prior-idle-ms = <150>;
         };
 
         symbolLayertap: symbolLayertap {
